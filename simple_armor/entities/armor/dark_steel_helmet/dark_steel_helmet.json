@@ -1,0 +1,66 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "stonehearth_ace:mixins:armor:medium_armor_helmet"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(dark_steel_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(dark_steel_helmet_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(dark_steel_helmet_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "ilevel": 10,
+         "required_job_level": 1,
+         "roles": [
+            "dragon_hunter_job"
+         ],
+         "injected_buffs": [
+            "stonehearth_ace:buffs:weather:sunstroke_resist",
+            "stonehearth_ace:buffs:toxin_resist"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 8
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 46,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+         "display_name": "i18n(simple_armor:entities.armor.dark_steel_helmet.display_name)",
+         "description": "i18n(simple_armor:entities.armor.dark_steel_helmet.description)",
+         "icon": "file(dark_steel_helmet.png)",
+         "category": "armor",
+         "material_tags": [
+            "dark_steel",
+            "ascendancy_made",
+            "crafted"
+         ]
+      }
+   }
+}

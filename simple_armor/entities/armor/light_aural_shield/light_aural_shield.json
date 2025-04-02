@@ -1,0 +1,68 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "stonehearth_ace:mixins:armor:light_shield"
+   ],
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(light_aural_shield.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(light_aural_shield_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol",
+            "stonehearth:have_shield"
+         ],
+         "ilevel": 9,
+         "roles": [
+            "footman_job"
+         ],
+         "required_job_level": 5,
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 6
+      },
+      "stonehearth:combat:melee_defenses": [
+         {
+            "name": "simple_shield_block",
+            "effect": "combat_1h_shield_block",
+            "active_frame": 5,
+            "cooldown": 10000,
+            "priority": 0,
+            "chance_of_success": 0.4
+         }
+      ],
+      "stonehearth:net_worth": {
+         "value_in_gold": 44,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 2,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+          "display_name": "i18n(simple_armor:entities.armor.light_aural_shield.display_name)",
+         "description": "i18n(simple_armor:entities.armor.light_aural_shield.description)",
+         "icon": "file(light_aural_shield.png)",
+         "category": "armor",
+         "material_tags": [
+            "steel",
+            "ascendancy_made",
+            "crafted"
+         ]
+      }
+   }
+}

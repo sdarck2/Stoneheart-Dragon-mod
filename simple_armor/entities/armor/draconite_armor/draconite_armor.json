@@ -1,0 +1,63 @@
+{
+	"mixins": [
+		"stonehearth:mixins:item_properties",
+		"stonehearth_ace:mixins:armor:medium_armor_torso",
+		"stonehearth_ace:mixins:armor:resistance:torso:low"
+	],
+	"type": "entity",
+	"components": {
+		"model_variants": {
+			"default": {
+				"layer": "armor",
+				"transparent": "false",
+				"models": [
+					"file(draconite_armor.qb)"
+				]
+			},
+		
+		 "female": {
+            "layer": "armor",
+            "transparent": "false",
+            "models": [
+               "file(draconite_armor_female.qb)"
+            ]
+         },
+        },
+
+		"stonehearth:entity_forms": {
+			"iconic_form": "file(draconite_armor_iconic.json)"
+		},
+
+		"stonehearth:equipment_piece": {
+			"slot": "torso",
+			"render_type": "merge_with_model",
+			"ilevel": 8,
+			"required_job_level": 3,
+			"roles": ["dragon_hunter_job"],
+			"equip_effect": "stonehearth:effects:weapon_level_up"
+
+		}
+	},
+ 	"entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 12
+      },
+		"stonehearth:net_worth": {
+			"value_in_gold": 100,
+			"rarity": "common",
+			"shop_info": {
+				"buyable": true,
+				"sellable": true,
+				"shopkeeper_level": 1,
+				"shopkeeper_type": "caravan"
+			}
+		},
+		"stonehearth:catalog": {
+			 "display_name": "i18n(simple_armor:entities.armor.draconite_armor.display_name)",
+         "description": "i18n(simple_armor:entities.armor.draconite_armor.description)",
+			"icon": "file(draconite_armor.png)",
+			"category": "armor",
+			"material_tags": ["draconite", "armor", "heavy_armor", "stockpile_equipment"]
+		}
+	}
+}

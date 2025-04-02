@@ -1,0 +1,72 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "stonehearth_ace:mixins:armor:medium_armor_helmet"
+   ],
+   "type": "entity",
+   "components": {
+      "render_info": {
+        "color_map": "simple_armor:color_map:helmet_eye_glowing",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json"
+         ]       
+      },
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent":"false",
+            "models": [
+               "file(draconite_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(draconite_helmet_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(draconite_helmet_iconic.json)"
+      },
+      "stonehearth:equipment_piece": {
+         "ilevel": 5,
+         "required_job_level": 4,
+         "roles": [
+            "dragon_hunter_job"
+         ],
+         "injected_buffs": [
+            "stonehearth_ace:buffs:toxin_resist",
+            "stonehearth_ace:buffs:weather:sunstroke_resist"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 12
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 46,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:catalog": {
+       "display_name": "i18n(simple_armor:entities.armor.draconite_helmet.display_name)",
+         "description": "i18n(simple_armor:entities.armor.draconite_helmet.description)",
+         "icon": "file(draconite_helmet.png)",
+         "category": "armor",
+         "material_tags": [
+            "draco",
+            "ascendancy_made",
+            "crafted"
+         ]
+      }
+   }
+}
