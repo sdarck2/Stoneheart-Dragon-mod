@@ -1,0 +1,35 @@
+{
+   "type": "mixin",
+   "components": {
+      "stonehearth:entity_forms": {
+         "placeable_on_walls": true,
+         "placeable_on_ground": true
+      },
+      "mob" : {
+         "region_origin" : { "x": 0, "y": 0, "z": 0.5 }
+      },
+      "sensor_list": {
+         "sensors": {
+            "door_sensor": {
+               "type": "sensor",
+               "radius": 2
+            }
+         }
+      },
+      "stonehearth:door": {
+         "sensor": "door_sensor"
+      },
+      "region_collision_shape": {
+         "region_collision_type": "none",
+         "region": [
+            {
+               "min": { "x": -2, "y": 0, "z": -0.5 },
+               "max": { "x": 2, "y": 4, "z": 1.5 }
+            }
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:entity_radius": 0.5
+   }
+}

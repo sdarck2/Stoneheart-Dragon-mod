@@ -1,0 +1,17 @@
+{
+   "mixins" : "/stonehearth/scenarios/static/terrain/ore_vein/ore_vein.json",
+   "name" : "esmerald_vein",
+   "kind" : "esmerald_ore",
+   "weight" : 100,
+
+   "data" :
+   {
+      "num_veins_min" : 8,
+      "num_veins_max" : 10,
+      "vein_length_min" : 20,
+      "vein_length_max" : 40,
+      "vein_radius" : 3,
+      "mother_lode_radius_min" : 5,
+      "mother_lode_radius_max" : 7
+   }
+}

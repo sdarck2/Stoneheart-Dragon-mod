@@ -1,0 +1,41 @@
+{
+   "type": "mixin",
+   "encounter_type": "create_mission",
+   "rarity": "common",
+   "out_edge": "wait_to_destroy_raiding_party",
+   "create_mission_info": {
+      "spawn_range": {
+         "min": 60,
+         "max": 180
+      },
+      "on_searcher_failure": {
+         "destroy_tree": {
+            "root": "generate_random_raiding_party",
+            "destroy_root": false
+         }
+      },
+      "mission": {
+         "npc_player_id": "slime",
+         "role": "pillage",
+         "offset": { "x": 0, "y": 0, "z": 0 },
+         "pillage_radius": {
+            "min": 0,
+            "max": 50
+         },
+         "sighted_bulletin": {
+            "title": "Watch out slimes are coming"
+         },
+         "members": {
+              "emerald_slime": {
+               "from_population": {
+                  "role": "emerald_slime",
+                  "location": { "x": 0, "z": 0 },
+                  "min": 2,
+                  "max": 3,
+                  "range": 30
+               }
+            },
+         }
+      }
+   }
+}

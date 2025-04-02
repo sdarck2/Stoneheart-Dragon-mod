@@ -1,0 +1,26 @@
+{
+   "components": {
+      "stonehearth:equipment_piece": {
+         "slot": "helmet",
+         "render_type": "merge_with_model",
+         "injected_buffs": [
+            "stonehearth_ace:buffs:armor_medium",
+            "stonehearth_ace:buffs:weather:sunstroke_resist"
+         ],
+         "equipment_types": [
+            "helmet",
+            "medium_armor"
+         ]
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "material_tags": [
+            "armor",
+            "helmet",
+            "medium_armor",
+            "stockpile_equipment"
+         ]
+      }
+   }
+}

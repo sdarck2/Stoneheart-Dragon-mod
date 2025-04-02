@@ -1,0 +1,235 @@
+{
+   "entities": {
+   	"tools":{
+
+   		"dragon_blacksmith_hammer":{
+   			"display_name":"Dragon Blacksmith Hammer"	,
+   			"description":"Tool used by the Dragon Blacksmith"
+   		}
+   	},
+   	"wokrbenches":{
+   		"dragon_blacksmith_forge"	:{
+   				"display_name":"Dragon Forge",
+   			"description":"Reaches temperatures so high that it can melt difficult-to-mold materials",
+
+
+   		},
+   		"dragon_blacksmith_workbench":{
+   			"display_name":"Dragon Workbench",
+   			"description":"It has a huge resistance so that it can support the creation of powerful equipment",
+
+   		}
+   	},
+   	"monsters":{
+   					"corrupted_dragon":{
+   						"display_name":"Corrupt Teen Fire Dragon",
+   						"description":"Its a dangerous dragon",
+   						"species":"dragon"
+   					},
+   					"corrupted_wyvern":{
+   						"display_name":"Corrupt Wyvern",
+   						"description":"Much stronger than an ordinary corrupted dragon",
+   						"species":"dragon"
+   					}
+   	},
+  	
+
+  	"pets": {
+	   "dragon_pet": {
+            "display_name": "Teen Fire Dragon",
+            "description": "Its a dangerous but cute Dragon",
+            "species": "dragon"
+         }
+	 },
+	 "resources":{
+	 	"auralite_ore":{
+	 		   "display_name": "Auralite Ore",
+         "description": "You feel a warm energy from this ore ",
+	 	},
+	 	"draconite_ore":{
+	 		"display_name": "Draconite Ore",
+      "description": "Feel the fire",
+	 	},
+	 	"esmerald_ore":{
+	 	 "display_name": "Emerald Ore",
+      "description": "Strong mineral that can be refined  into ingots ",
+	 	},
+	 	"wyvern_ore":{
+	 		"display_name": "Wyvern Ore",
+      "description": "Perfect resource to start to create equip to fight dragons",
+
+	 	},
+	 	"dark_steel_ore":{
+	 		"display_name":" Dark Steel Ore",
+	 		"description":"Material used to create dark steel ingots",
+	 	},
+	 	 	"wyvern_skin":{
+	 		"display_name":"Wyvern Skin",
+	 		"description":"Tough skin used to make combat equipment "
+	 	}
+	 },
+	 "refined":{
+	 	"auralite_ingot":{
+	 		 "display_name": "Auralite Ingot",
+         "description": "An ingot imbued with the power of the aura",
+
+	 	},
+	 	"draconite_ingot":{
+	 		  "display_name": "Draconite Ingot",
+         "description": "First tier of the dragon forge",
+
+	 	},
+	 	"esmerald_ingot":{
+	 		 "display_name": "Emerald Ingot",
+         "description": "Strong material to make a good equipment for fight",
+
+	 	},
+	 	"wyvern_ingot":{
+	 		"display_name": "Wyvern Ingot",
+         "description": "Good material to start to craft equipment to fight formidable enemies",
+
+	 	},
+	 	"dark_steel_ingot":{
+	 		"display_name": "Dark Steel Ingot",
+	 		"description" : "Stronger than the normal steel",
+	 	},
+	
+	 },
+"ui":{
+	 	"auralite_block":{
+	 		  "display_name": "Auralite Vein",
+         "description": "Provides auralite when mined."
+
+	 	},
+	 	"draconite_block":{
+	 		   "display_name": "Draconite Vein",
+         "description": "Provides draconite when mined."
+
+	 	},
+	 	"esmerald_block":{
+	 		  "display_name": "Emerald Vein",
+         "description": "Provides emerald when mined."
+
+	 	},
+	 	"wyvern_block":{
+	 		     "display_name": "Wyvern Vein",
+         "description": "Provides wyvern ore when mined."
+
+	 	},
+	 	"dark_steel_block":{
+	 		"display_name" : "Dark Steel Vein",
+	 		"description" : "Provides dark steel ore when mined."
+	 	}
+
+
+	},
+	 "weapons": {
+	   "esmerald_sword": {
+	     "display_name": "Emerald Sword",
+         "description": "Sword capable to deal much damage",
+		  "esmerald_sword_iconic": {
+	        "display_name": "Emerald Sword",
+            "description": "Sword capable of dealing much damage",
+            "flavor":""
+
+	      }
+	   },
+	   "dragon_sword":{
+	   	"display_name":"Dragon Sword",
+	   	"description":"Weapon used by beginner dragon hunters",
+	   	"dragon_sword_talisman":{
+	   		"display_name":"Dragon Sword",
+	   		"description":"Required to promote a Hearthling to a Dragon Hunter",
+	   		"flavor":""
+
+	   	}
+
+	   			},
+	   			"soldier_lance":{
+	   				"display_name":"Soldier Lance",
+	   				"description":"Spear strong enough to fight dangerous enemies ",
+	   				"soldier_lance_talisman":{
+	   					"display_name":"Soldier Lance",
+	   					"description":"Required to promote a Hearthling to a Soldier",
+	   				}
+	   			},
+	   			"dragon_fang":{
+	   					"display_name":"Dragon Fang ",
+	   					"description":"First tier of dragon slayer weapon",
+	   					"flavor":""
+
+
+	   			},
+	   			"dark_steel_sword":{
+	   				"display_name":"Dark Steel Sword ",
+	   				"description":"Stronger than a normal steel sword",
+
+	   			},
+	   				"dark_steel_lance":{
+	   				"display_name":"Dark Steel Lance ",
+	   				"description":"Lance made of dark steel",
+
+	   			},
+	   			"aural_sword":{
+	   					"display_name":"Aural Sword",
+	   					"description":" Sword imbued with aura to hurt strong monsters",
+	   					"flavor":""
+
+	   			},
+	   			"wirmslayer":{
+	   				"display_name":"Wyrmslayer",
+	   				"description":"A sword made with escense of the wyverns",
+	   				"flavor":""
+					},
+
+	 		},
+	 		"armor":{
+	 				"aural_armor":{
+	 					"display_name": "Aural Armor",
+						"description": "A powerfull armor make by a strong aura",
+	 				},
+	 				"soldier_helmet":{
+	 					"display_name":"Soldier Helmet",
+	 					"description":"Basic helmet for soldiers"
+	 				},
+	 				"aural_helmet":{
+	 				   "display_name": "Aural Helmet",
+         "description": "Helmet imbued with aura",
+	 				},
+	 				"draconite_armor":{
+	 						"display_name": "Draconite Armor",
+			"description": "Forged with dragon material",
+	 				},
+	 				"draconite_helmet":{
+	 					 "display_name": "Draconite Helmet",
+         "description": "Helmet forged with dragon material ",
+	 				},
+	 				"esmerald_armor":{
+	 						 "display_name": "Emerald Armor",
+         "description": "Forged to fight strong enemies",
+	 				},
+	 				"esmerald_helmet":{
+	 					"display_name": "Emerald Helmet",
+         "description": "Strong helmet to fight with strong monsters",
+	 				},
+	 				"light_aural_shield":{
+	 						  "display_name": " Aural Light Shield",
+         "description": "A shield to protect you for heavy attacks",
+	 				},
+	 				"wyvern_armor":{
+	 					"display_name": "Wyvern Armor",
+	 					"description": "Made from the skin of wyvern",
+
+	 				},
+	 				"dark_steel_armor":{
+	 					"display_name":"Dark Steel Armor",
+	 					"description" :"Capable of absorbing more damage than normal steel armor",
+	 				},
+	 				"dark_steel_helmet":{
+	 					"display_name":"Dark Steel Helmet",
+	 					"description":"Resistant helmet for the dragon hunter"
+	 				}
+	 		}
+
+   }
+}

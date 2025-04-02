@@ -1,0 +1,35 @@
+{
+   "type": "kingdom",
+   "kingdom_name": "dragon",
+   "kingdom_id": "dragon",
+    "amenity_to_strangers": "hostile",
+  "amenity_to": {
+   "orcs": "hostile",
+   "human_npcs": "neutral",
+   "orc_npcs": "hostile",
+   "rabbit_biped_npcs": "neutral"
+},
+   "roles": {
+      "dragon" : {
+         "male" : {
+            "uri": [
+               "simple_armor:dragons:dragon"
+            ]
+         }
+      },
+      "corrupt_dragon":{
+         "male":{
+            "uri":[
+               "simple_armor:corrupt_dragon:corrupt_dragon"
+            ]
+         }
+      },
+      "corrupt_wyvern":{
+         "male":{
+            "uri":[
+               "simple_armor:corrupt_dragon:corrupt_wyvern"
+            ]
+         }
+      },
+   }
+}

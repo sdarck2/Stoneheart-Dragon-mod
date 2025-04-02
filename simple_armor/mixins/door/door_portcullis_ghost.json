@@ -1,0 +1,39 @@
+{
+   "type": "mixin",
+   "components": {
+      "mob": {
+         "align_to_grid": [
+            "x"
+         ]
+      },
+      "render_info": {
+         "scale": 0.1,
+		 "animation_table": "file(/data/rigs/entities/furniture/doortest2.json)"
+      },
+      "effect_list": {
+         "default": "file(/data/rigs/entities/furniture/effects/idle.json)",
+         "initial_pose_animation": "close2.json"
+      },
+      "stonehearth:fixture": {
+         "valign": "bottom",
+         "cursor": "stonehearth:cursors:create_door",
+         "margin": {
+            "left": 1,
+            "right": 1,
+            "top": 1
+         },
+         "bounds": {
+            "min": { "x": -2, "y": 0 },
+            "max": { "x": 2, "y": 4 }
+         }
+      },
+      "stonehearth:portal": {
+         "cutter": [
+            {
+               "min": { "x": -2, "y": 0 },
+               "max": { "x": 2, "y": 4 }
+            }
+         ]
+      }
+   }
+}

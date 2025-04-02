@@ -1,0 +1,21 @@
+{
+   "type": "kingdom",
+   "kingdom_name": "slime",
+   "kingdom_id": "slime",
+    "amenity_to_strangers": "hostile",
+  "amenity_to": {
+   "orcs": "hostile",
+   "human_npcs": "neutral",
+   "orc_npcs": "hostile",
+   "rabbit_biped_npcs": "neutral"
+},
+   "roles": {
+      "emerald_slime":{
+         "male" : {
+            "uri": [
+               "simple_armor:monster:emerald_slime"
+            ]
+         }
+      }
+   }
+}

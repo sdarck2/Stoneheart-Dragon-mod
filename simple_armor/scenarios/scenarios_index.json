@@ -1,0 +1,13 @@
+{
+   "static" :
+   {
+      "scenarios" :
+      [
+          "file(static/terrain/draconite_vein/draconite_vein.json)",
+          "file(static/terrain/auralite_vein/auralite_vein.json)",
+          "file(static/terrain/esmerald_vein/esmerald_vein.json)",
+          "file(static/terrain/wyvern_vein/wyvern_vein.json)",
+          "file(static/terrain/dark_steel_vein/dark_steel_vein.json)"
+      ]
+   }
+}

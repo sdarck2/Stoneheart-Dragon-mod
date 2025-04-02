@@ -1,0 +1,179 @@
+{
+	"info": {
+		"name": "Dragon Hunter",
+		"namespace": "simple_armor",
+		"version": 3
+	},
+	"dependencies": [
+		"northern_alliance",
+		"rayyas_children",
+		"stonehearth_ace"
+	],
+    "default_locale": "en",
+	"aliases": {
+		"armor:soldier_helmet":"file(entities/armor/soldier_helmet/soldier_helmet.json)",
+		"armor:aural_armor": "file(entities/armor/aural_armor/aural_armor.json)",
+		"armor:esmerald_armor":"file(entities/armor/esmerald_armor/esmerald_armor.json)",
+		"armor:draconite_armor": "file(entities/armor/draconite_armor/draconite_armor.json)",
+		"armor:wyvern_armor":"file(entities/armor/wyvern_armor/wyvern_armor.json)",
+		"armor:dark_steel_armor":"file(entities/armor/dark_steel_armor/dark_steel_armor.json)",
+		"armor:dark_steel_helmet":"file(entities/armor/dark_steel_helmet/dark_steel_helmet.json)",
+		"weapons:esmerald_sword": "file(entities/weapons/esmerald_sword/esmerald_sword.json)",
+		"armor:esmerald_helmet": "file(entities/armor/esmerald_helmet/esmerald_helmet.json)",
+		"jobs:soldier_outfit":"file(jobs/soldier/soldier_outfit/soldier_outfit.json)",
+		"weapons:soldier_lance":"file(entities/weapons/soldier_lance/soldier_lance.json)",
+		"soldier:soldier_lance_talisman":"file(entities/weapons/soldier_lance/soldier_lance_talisman.json)",
+		"weapons:wirmslayer": "file(entities/weapons/wirmslayer/wirmslayer.json)",
+		"weapons:dark_steel_sword":"file(entities/weapons/dark_steel_sword/dark_steel_sword.json)",
+		"weapons:dark_steel_lance":"file(entities/weapons/dark_steel_lance/dark_steel_lance.json)",
+		"weapons:slime_attack":"file(entities/monsters/emerald_slime/slime_attack.json)",
+		"refined:esmerald_ingot": "file(entities/refined/esmerald/esmerald_ingot.json)",
+		"armor:draconite_helmet":"file(entities/armor/draconite_helmet/draconite_helmet.json)",
+		"armor:aural_helmet": "file(entities/armor/aural_helmet/aural_helmet.json)",
+		"armor:light_aural_shield": "file(entities/armor/light_aural_shield/light_aural_shield.json)",
+		"weapons:dragon_fang": "file(entities/weapons/dragon_fang/dragon_fang.json)",
+		"weapons:aural_sword": "file(entities/weapons/aural_sword/aural_sword.json)",
+		"refined:auralite_ingot": "file(entities/refined/auralite/auralite_ingot.json)",
+		"weapons:sword_of_seals": "file(entities/weapons/sword_of_seals/sword_of_seals.json)",
+		"resources:auralite_ore:ore": "file(entities/resources/auralite_ore/auralite_ore.json)",
+		"resources:esmerald_ore:ore": "file(entities/resources/esmerald_ore/esmerald_ore.json)",
+		"resources:wyvern_skin":"file(entities/resources/skins/wyvern_skin/wyvern_skin.json)",
+		"resources:wyvern_ore:ore":"file(entities/resources/wyvern_ore/wyvern_ore.json)",
+		"terrain:ui:auralite_block": "file(entities/terrain/ui/auralite_block/auralite_block.json)",
+		"terrain:ui:esmerald_block": "file(entities/terrain/ui/esmerald_block/esmerald_block.json)",
+		"resources:draconite_ore:ore": "file(entities/resources/draconite_ore/draconite_ore.json)",
+		"terrain:ui:draconite_block": "file(entities/terrain/ui/draconite_block)",
+		"terrain:ui:wyvern_block":"file(entities/terrain/ui/wyvern_block)",
+		"resources:gems:esmerald": "file(entities/resources/gems/esmerald)",
+		"refined:draconite_ingot":"file(entities/refined/draconite/draconite_ingot.json)",
+		"refined:wyvern_ingot":"file(entities/refined/wyvern/wyvern_ingot.json)",
+		"kingdoms:dragon":"file(services/server/population/data/dragon_population.json)",
+		"kingdoms:slime":"file(services/server/population/data/slime_population.json)",
+		"dragons:dragon":"file(entities/dragons/dragon/dragon.json)",
+		"dragons:friendly_dragon":"file(entities/dragons/dragonfriendly/dragonfriendly.json)",
+		"dragons:ice_dragon":"file(entities/dragons/icedragon/icedragon.json)",
+		"monster_tuning:corrupted_dragons:corrupt_dragon": "file(data/monster_tuning/corrupted_dragons/corrupt_dragon.json)",
+		"mixins:dragons":"file(mixins/dragons/dragons.json)",
+		"mixins:door":"file(mixins/door/door_portcullis.json)",
+		"mixins:door:destructable":"file(mixins/door/strong_destructable_door.json)",
+		"mixins:door_ghost":"file(mixins/door/door_portcullis_ghost.json)",
+		"mixins:encounter":"file(mixins/encounter/mixin_corrupt_dragon_encounter.json)",
+		"mixins:encounter_corrupt_wyvern":"file(mixins/encounter/mixin_corrupt_wyvern_encounter.json)",
+		"mixins:encounter_emerald_slime":"file(mixins/encounter/mixin_emerald_slime_encounter.json)",
+		 "monster_tuning:emerald_slime":"file(data/monster_tuning/slimes/emerald_slime.json)",
+   		"jobs:index": "file(jobs/index.json)",
+   		"jobs:dragon_hunter": "file(jobs/dragon_hunter/dragon_hunter_description.json)",
+   		"jobs:soldier":"file(jobs/soldier/soldier_description.json)",
+   		"jobs:dragon_blacksmith":"file(jobs/dragon_blacksmith/dragon_blacksmith_description.json)",
+   		
+		"resources:dark_steel_ore:ore":"file(entities/resources/dark_steel_ore/dark_steel_ore.json)",
+		"refined:dark_steel_ingot":"file(entities/refined/dark_steel_ingot/dark_steel_ingot.json)",
+		"terrain:ui:dark_steel_block":"file(entities/terrain/ui/dark_steel_block)",
+
+
+
+   		"dragon_hunter:dragon_sword_talisman":"file(entities/weapons/dragon_sword/dragon_sword_talisman.json)",
+   		"weapons:dragon_sword": "file(entities/weapons/dragon_sword/dragon_sword.json)",
+   		"dragon_hunter:manual_of_dragon_eruption":"file(jobs/dragon_hunter/dragon_hunter_abilities/dragon_hunter_eruption_manual.json)",
+   		"jobs:dragon_hunter_outfit":"file(jobs/dragon_hunter/dragon_hunter_outfit/dragon_hunter_outfit.json)",
+   		"jobs:dragon_hunter_helmet":"file(jobs/dragon_hunter/dragon_hunter_helmet/dragon_hunter_helmet.json)",
+   		"dragon_hunter:manual_of_dragon_jump": "file(jobs/dragon_hunter/dragon_hunter_abilities/dragon_power_jump_manual.json)",
+   		"dragon_hunter:manual_of_dragon_cleave":"file(jobs/dragon_hunter/dragon_hunter_abilities/dragon_cleave_manual.json)",
+   		"jobs:dragon_hunter:dragon_hunter_buff:first_line_rusher":"file(jobs/dragon_hunter/dragon_hunter_buffs/speed_buff.json)",
+   		"jobs:dragon_hunter:dragon_hunter_buff:dragon_boost" :"file(jobs/dragon_hunter/dragon_hunter_buffs/dragon_boost_damage.json)",
+   		"jobs:dragon_hunter:dragon_hunter_buff:dragon_skin_buff" :"file(jobs/dragon_hunter/dragon_hunter_buffs/dragon_skin_buff.json)",
+   		"jobs:dragon_hunter:dragon_hunter_buff:dragon_aura" :"file(jobs/dragon_hunter/dragon_hunter_buffs/dragon_aura_buff.json)",
+   		"jobs:dragon_hunter:dragon_hunter_buff:dragon_aura_effect" :"file(jobs/dragon_hunter/dragon_hunter_buffs/dragon_aura_buff_effect.json)",
+   		"corrupt_dragon:corrupt_dragon":"file(entities/monster_dragons/corrupted_dragon/corrupted_dragon.json)",
+   		"corrupt_dragon:corrupt_wyvern":"file(entities/monster_dragons/corrupted_wyvern/corrupted_wyvern.json)",
+   		"monster:emerald_slime":"file(entities/monsters/emerald_slime/emerald_slime.json)",
+   		"color_map:dragon_eye_glowing":"file(data/materials/colors_maps/dragon_eye_glowing.json)",
+   		"color_map:dragon_eye_glowing_map":"file(data/materials/colors_maps/dragon_eye_glowing_map.json)",
+   		"color_map:helmet_eye_glowing":"file(data/materials/colors_maps/helmet_eye_glowing.json)",
+   		"color_map:helmet_eye_glowing_map":"file(data/materials/colors_maps/helmet_eye_glowing_map.json)",
+   		"color_map:furniture_color":"file(data/materials/colors_maps/furniture_color_map.json)",
+   		"traits:dragon_companion":"file(data/traits/dragon_companion/dragon_companion.json)",
+   		"traits:passion_dragon_hunter":"file(data/traits/passion_dragon_hunter/passion_dragon_hunter.json)",
+   		"weapons:teen_dragon":"file(entities/dragons/dragon/dragon_scratch.json)",
+   		"weapons:breath:dragon_fire":"file(entities/dragons/dragonfriendly/dragon_fire.json)",
+   		"weapons:breath:dragon_ice":"file(entities/dragons/icedragon/dragon_ice.json)",
+   		"weapons:corrupt_dragon":"file(entities/monster_dragons/corrupted_dragon/corrupt_breath.json)",
+   		"soldier:soldier_attack_manual":"file(jobs/soldier/soldier_abilities/soldier_attack_manual.json)",
+   		"soldier:manual_of_full_charge_attack":"file(jobs/soldier/soldier_abilities/soldier_full_charge_attack_manual.json)",
+   		"jobs:soldier:soldier_buff:basic_defense_training_buff":"file(jobs/soldier/soldier_buffs/basic_defense_training_buff.json)",
+   		"jobs:soldier:soldier_buff:soldier's_determination_aura_buff":"file(jobs/soldier/soldier_buffs/soldier_s_determination_aura_buff.json)",
+   		"jobs:soldier:soldier_buff:soldier's_determination_aura_buff_effect":"file(jobs/soldier/soldier_buffs/soldier_s_determination_aura_effect.json)",
+   		"jobs:soldier:soldier_buff:soldier_fortified":"file(jobs/soldier/soldier_buffs/soldier_fortified.json)",
+   		"jobs:soldier:soldier_buff:toughness":"file(jobs/soldier/soldier_buffs/Toughness.json)",
+   		"loot_bag:wyvern_default": "file(data/loot_bag/corrupt_wyvern_default.json)",
+   		"furniture:doors":"file(entities/furniture/great_stone_portcullis.json)",
+   		"weapons:dragon_blacksmith:dragon_blacksmith_hammer":"file(jobs/dragon_blacksmith/dragon_blacksmith_hammer/dragon_blacksmith_hammer.json)",
+   		"jobs:dragon_blacksmith:dragon_blacksmith_hammer_talisman":"file(jobs/dragon_blacksmith/dragon_blacksmith_hammer/dragon_blacksmith_hammer_talisman.json)",
+   		"jobs:dragon_blacksmith:dragon_blacksmith_outfit":"file(jobs/dragon_blacksmith/dragon_blacksmith_outfit/dragon_blacksmith_outfit.json)",
+   		"dragon_blacksmith:dragon_forge":"file(jobs/dragon_blacksmith/dragon_blacksmith_forge/dragon_blacksmith_forge.json)",
+   		"dragon_blacksmith:workbench":"file(jobs/dragon_blacksmith/dragon_blacksmith_workbench/dragon_blacksmith_workbench.json)",
+   		"dragon:fireball":"file(entities/weapons/fireball/fireball.json)",
+   	
+
+   		"effects:corrupt_fire":"file(data/effects/corrupt_fire.json)",
+   		"buffs:fire:corrupt_fire":"file(data/buff/corrupt_fire.json)",
+   		"breath:ice_effect":"file(data/effects/ice_shot.json)"
+	},
+
+	"mixintos": {
+
+	"stonehearth/data/materials/color_maps/human_color_map.json":"file(data/materials/colors_maps/human_color_map.json)",
+	"stonehearth/mixins/base_human/base_human.json":"file(mixins/base_human/base_human.json)",	
+	 "stonehearth/data/gm/gm_index.json": "file(data/gm/gm_index.json)",
+	 "stonehearth/data/npc_index.json": "file(data/npc_index.json)", 
+	 "/stonehearth/services/server/mining/mining_loot_tables.json": "simple_armor/services/server/mining/mining_loot_tables.json",
+	 "stonehearth/jobs/blacksmith/recipes/recipes.json": "file(jobs/blacksmith/recipes/recipes.json)",
+	 "stonehearth:scenarios:scenario_index": "file(scenarios/scenarios_index.json)",
+	 "stonehearth/data/terrain/terrain_blocks.json": "file(data/terrain/terrain_blocks.json)",
+	 "stonehearth/data/biome/arctic_generation_data.json": "file(data/biome/arctic_generation_data.json)",
+	 "stonehearth/data/biome/desert_generation_data.json": "file(data/biome/desert_generation_data.json)",
+	 "stonehearth/data/biome/temperate_generation_data.json": "file(data/biome/temperate_generation_data.json)",
+	 "stonehearth/data/biome/desert_mining_loot_table.json": "file(data/biome/desert_mining_loot_table.json)",
+	 "stonehearth:jobs:index": "simple_armor:jobs:index",
+	 "stonehearth/data/gm/campaigns/ambient_threats/arcs/trigger/ambient_threats/ambient_threats_arc.json": "file(data/gm/campaings/ambient_threats/ambient_threats_arc.json)",
+   	 "stonehearth/data/gm/campaigns/ambient_threats/arcs/trigger/ambient_threats/encounters/trash_mobs/raid_difficulty/very_easy_raids.json": "file(data/gm/campaings/ambient_threats/encounters/very_easy_raids.json)",
+   	 "stonehearth/data/gm/campaigns/ambient_threats/arcs/trigger/ambient_threats/encounters/trash_mobs/raid_difficulty/epic_3_raids.json": "file(data/gm/campaings/ambient_threats/encounters/epic_3_raids.json)",
+   	 "stonehearth_ace/entities/gizmos/training_dummy/training_dummy.json": "simple_armor/entities/gizmos/training_dummy/clay_training_dummy.json",
+     "stonehearth_ace/entities/gizmos/stone_training_dummy/stone_training_dummy.json": "simple_armor/entities/gizmos/training_dummy/stone_training_dummy.json",
+     "stonehearth_ace/entities/gizmos/clay_training_dummy/clay_training_dummy.json": "simple_armor/entities/gizmos/training_dummy/training_dummy.json",
+     "stonehearth_ace/entities/gizmos/brass_training_dummy/brass_training_dummy.json":"simple_armor/entities/gizmos/training_dummy/brass_training_dummy.json",
+     "stonehearth/data/traits/traits_index.json": "file(data/traits/traits_index.json)",
+     "stonehearth/data/ui/start_menu.json" : "file(data/ui/start_menu.json)"
+
+		
+
+	},
+	  "overrides": {
+    
+      "stonehearth/data/rigs/entities/humans/animations/male/dragon_power_jump.json": "simple_armor/data/rigs/entities/dragon_hunter/animations/dragon_power_jump.json",
+      "stonehearth/data/rigs/entities/humans/effects/dragon_power_jump.json": "simple_armor/data/rigs/entities/dragon_hunter/effects/dragon_power_jump.json",
+      "stonehearth/data/rigs/entities/humans/animations/female/dragon_power_jump.json": "simple_armor/data/rigs/entities/dragon_hunter/animations/dragon_power_jump.json",
+	  "stonehearth/data/rigs/entities/humans/animations/male/dragon_cleave.json": "simple_armor/data/rigs/entities/dragon_hunter/animations/dragon_cleave.json",
+      "stonehearth/data/rigs/entities/humans/effects/dragon_cleave.json": "simple_armor/data/rigs/entities/dragon_hunter/effects/dragon_cleave.json",
+      "stonehearth/data/rigs/entities/humans/animations/female/dragon_cleave.json": "simple_armor/data/rigs/entities/dragon_hunter/animations/dragon_cleave.json",
+      "stonehearth/data/rigs/entities/humans/animations/male/soldier_attack.json":"simple_armor/data/rigs/entities/soldier/animations/soldier_attack.json",
+      "stonehearth/data/rigs/entities/humans/effects/soldier_attack.json":"simple_armor/data/rigs/entities/soldier/effects/soldier_attack.json",
+       "stonehearth/data/rigs/entities/humans/animations/male/full_charge_attack.json":"simple_armor/data/rigs/entities/soldier/animations/full_charge_attack.json",
+      "stonehearth/data/rigs/entities/humans/effects/full_charge_attack.json":"simple_armor/data/rigs/entities/soldier/effects/full_charge_attack.json"
+      
+     
+   },
+
+	"controllers":{
+   "class:dragon_hunter": "file(jobs/dragon_hunter/dragon_hunter.lua)",
+   "class:soldier":"file(jobs/soldier/soldier.lua)",
+   "class:dragon_blacksmith":"file(jobs/dragon_blacksmith/dragon_blacksmith.lua)"
+  
+  },
+  "ui":{
+
+  	"less":[
+  		"file(jobs/dragon_blacksmith/skin/workshop.less)"
+  	]
+  }
+}

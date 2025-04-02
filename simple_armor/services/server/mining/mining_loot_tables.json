@@ -1,0 +1,122 @@
+{
+	"mineable_blocks": {
+		"rock": {
+			"entries": {
+				"default": {
+					"items": {
+						"draconite_ore": {
+							"uri": "simple_armor:resources:draconite_ore:ore",
+							"weight": 5,
+						},
+						"esmerald_ore":{
+							"uri":"simple_armor:resources:esmerald_ore:ore",
+							"weight": 5,
+						},
+						"auralite_ore":{
+							"uri":"simple_armor:resources:auralite_ore:ore",
+							"weight":5,
+						},
+						"wyvern_ore":{
+							"uri":"simple_armor:resources:wyvern_ore:ore",
+							"weight":5,
+						},
+						"dark_steel_ore":{
+							"uri":"simple_armor:resources:dark_steel_ore:ore",
+							"weight" :5, 
+						}
+					}
+				}
+			}
+		},
+		"draconite_ore": {
+			"entries": {
+				"default": {
+					"num_rolls": 1,
+					"items": {
+						"none": {
+							"uri": "",
+							"weight": 100
+						},
+						"draconite_ore": {
+							"uri": "simple_armor:resources:draconite_ore:ore",
+							"weight": 50,
+						}
+					}
+				}
+			}
+		},
+		"auralite_ore":{
+			"entries":{
+				"default":{
+					"num_rolls":1,
+					"items":{
+						"none":{
+							"uri":"",
+							"weight":100
+						},
+						"auralite_ore":{
+							"uri":"simple_armor:resources:auralite_ore:ore",
+							"weight":50,
+						}
+					}
+				}
+			}
+		},
+		"esmerald_ore":{
+			"entries":{
+				"default":{
+					"num_rolls":1,
+					"items":{
+						"none":{
+							"uri":"",
+							"weight":100
+						},
+						"esmerald_ore":{
+							"uri":"simple_armor:resources:esmerald_ore:ore",
+							"weight":50,
+						}
+					}
+				}
+			}
+		},
+			"wyvern_ore": {
+			"entries": {
+				"default": {
+					"num_rolls": 1,
+					"items": {
+						"none": {
+							"uri": "",
+							"weight": 100
+						},
+						"wyvern_ore": {
+							"uri": "simple_armor:resources:wyvern_ore:ore",
+							"weight": 50,
+						}
+					}
+				}
+			}
+		},
+		"dark_steel_ore": {
+			"entries": {
+				"default": {
+					"num_rolls": 1,
+					"items": {
+						"none": {
+							"uri": "",
+							"weight": 100
+						},
+						"dark_steel_ore": {
+							"uri": "simple_armor:resources:dark_steel_ore:ore",
+							"weight": 50,
+						}
+					}
+				}
+			}
+		},
+	}					
+}					
+	
+
+		
+		
+	
