@@ -1,0 +1,11 @@
+{  
+ "simple_armor:dragon_eye_glowing:hilight":{
+    "color":"#8000F0"
+ },
+ "simple_armor:dragon_eye_glowing:midtone":{
+    "color":"#8000F0"
+ },
+  "simple_armor:dragon_eye_glowing:shadows":{
+    "color":"#8000F0"
+ }
+}

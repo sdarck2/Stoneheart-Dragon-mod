@@ -1,0 +1,30 @@
+{
+   "type": "monster_tuning",
+   "equipment": {
+      "abilities": "stonehearth:abilities:door_breaker_abilities"
+   },
+   "loot_drops": {
+      "entries": {
+         "default": {
+              "roll_type": "some_of",
+         "num_rolls": {
+            "min": 5,
+            "max": 8
+         },
+            "items": {
+               "wyvern_skin":{
+                  "uri":"simple_armor:resources:wyvern_skin",
+                  "weight":10
+               },
+                "draconite_ore": {
+                     "uri": "simple_armor:resources:draconite_ore:ore",
+                     "weight": 5,
+                  },
+
+            }
+         }
+      }
+   }
+}
+
+

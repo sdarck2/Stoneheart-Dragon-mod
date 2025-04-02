@@ -1,0 +1,5 @@
+{
+   "simple_armor:dragon_eye_glowing" : {
+      "render_material" : "materials/shiny.material.json"
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "encounters": {
+      "corrupt_dragon_raid": "file(encounters/corrupt_dragon_raid.json)",
+      "corrupt_wyvern_raid": "file(encounters/corrupt_wyvern_raid.json)",
+      "emerald_slime_raid":"file(encounters/emerald_slime_raid.json)",
+   }
+}

@@ -1,0 +1,5 @@
+{
+   "simple_armor:helmet_eye_glowing" : {
+      "render_material" : "materials/shiny.material.json"
+   }
+}

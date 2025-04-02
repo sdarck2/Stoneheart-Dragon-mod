@@ -1,0 +1,22 @@
+{
+   "type": "monster_tuning",
+   "loot_drops": {
+      "entries": {
+         "default": {
+              "roll_type": "some_of",
+         "num_rolls": {
+            "min": 5,
+            "max": 8
+         },
+            "items": {
+               "emerald_ore":{
+                  "uri":"simple_armor:resources:esmerald_ore:ore",
+                  "weight":10
+               },
+            }
+         }
+      }
+   }
+}
+
+

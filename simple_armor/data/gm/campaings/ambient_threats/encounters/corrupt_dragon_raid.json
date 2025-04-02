@@ -1,0 +1,22 @@
+{
+  "type" :"encounter",
+  "mixins":"simple_armor:mixins:encounter",
+  "encounter_type":"create_mission",
+  "in_edge":"corrupt_dragon_raid",
+  "out_edge":"wait_to_destroy_raiding_party",
+  "create_mission_info": {
+  	"mission":{
+  		"ctx_entity_registration_path":"corrupt_dragon_raid",
+  		"members":{
+  			"corrupt_dragon":{
+  				"from_population":{
+  					"min":1,
+  					"max":3,
+  				},
+  				"tuning":"simple_armor:monster_tuning:corrupted_dragons:corrupt_dragon"
+  			},
+      }
+
+  	}
+  }
+}

@@ -1,0 +1,11 @@
+{  
+ "simple_armor:helmet_eye_glowing:hilight":{
+    "color":"#FF9E00"
+ },
+ "simple_armor:helmet_eye_glowing:midtone":{
+    "color":"#FF9E00"
+ },
+  "simple_armor:helmet_eye_glowing:shadows":{
+    "color":"#FF9E00"
+ }
+}
