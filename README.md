@@ -1,3 +1,4 @@
 # Stoneheart-Dragon-mod
-An old project i had
+An old project i had.
+
 MIT license
