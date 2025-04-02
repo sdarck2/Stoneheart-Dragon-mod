@@ -1,0 +1,19 @@
+{
+    "resources" : {
+        "esmerald resource": {
+           "name": "esmerald",
+           "icon": "/simple_armor/entities/resources/gem/esmerald.png",
+           "stacks": 120,
+           "auto_queue_crafter_job": "stonehearth:jobs:blacksmith",
+           "default_resource": "simple_armor:resources:gems:esmerald"
+        }
+     }
+  },
+        "draconite_ore resource" : {
+            "name" : "draconite_ore",
+            "icon" : "simple_armor/entities/resources/draconite_ore/draconite_ore.png",
+            "stacks" : 80,
+            "default_resource": "simple_armor:resources:draconite:ore"
+        }       
+    }
+}

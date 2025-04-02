@@ -1,0 +1,16 @@
+{
+	"type": "trait",
+	"mixins": "stonehearth:mixins:traits:passion_job",
+	"icon":"file(passion_dragon_hunter_trait.png)",
+  "data":{
+  		"job_uri":"simple_armor:jobs:dragon_hunter"
+  },
+  "subject_overrides":[
+  	{
+  		"subject":"simple_armor:dragon_hunter:dragon_sword_talisman",
+  		"sentiment":1,
+  		"permanent":true,
+  		"unvarying":true
+  	}
+  ]
+}

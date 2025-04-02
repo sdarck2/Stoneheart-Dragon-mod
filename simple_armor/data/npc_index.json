@@ -1,0 +1,11 @@
+{
+   "populations": {
+      "dragon": {
+         "kingdom": "simple_armor:kingdoms:dragon"
+
+      },
+      "slime":{
+         "kingdom":"simple_armor:kingdoms:slime"
+      }
+   }
+}

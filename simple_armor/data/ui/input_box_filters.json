@@ -1,0 +1,19 @@
+{
+	"crafter_menu": {
+		"items": {
+			"dragon_blacksmith": {
+				"ordinal":1.4,
+				"name":"",
+				"description":"",
+				"class":"dragon_blacksmith_button",
+				"required_job":"simple_armor:jobs:dragon_blacksmith",
+				"required_job_text":"",
+				"icon":"/simple_armor/jobs/dragon_blacksmith/images/dragon_blacksmith_menu_icon.png",
+				"sticky": true,
+				"menu_action": "show_crafter_ui",
+				"hotkey_action": "craft:dragon_blacksmith",
+
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+   "block_types" :
+   {
+      "draconite_ore" :   { "tag" : 502, "kind" : "draconite_ore" },
+      "esmerald_ore":{"tag":910,"kind":"esmerald_ore"},
+      "auralite_ore":{"tag":320,"kind":"auralite_ore"},
+      "wyvern_ore":{"tag":911,"kind":"wyvern_ore"},
+      "dark_steel_ore":{"tag":913,"kind":"dark_steel_ore"},
+   },
+   "selectable_kinds" :
+   {
+      "wyvern_ore":"simple_armor:terrain:ui:wyvern_block",
+      "draconite_ore" : "simple_armor:terrain:ui:draconite_block",
+      "esmerald_ore":"simple_armor:terrain:ui:esmerald_block",
+      "auralite_ore":"simple_armor:terrain:ui:auralite_block",
+      "dark_steel_ore":"simple_armor:terrain:ui:dark_steel_block",
+   }
+}
