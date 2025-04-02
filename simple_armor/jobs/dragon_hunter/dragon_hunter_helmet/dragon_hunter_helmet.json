@@ -1,0 +1,56 @@
+{
+   "mixins": [
+      "stonehearth:mixins:item_properties",
+      "stonehearth_ace:mixins:armor:medium_armor_helmet"
+   ],
+   "type": "entity",
+  "components": {
+      "render_info": {
+        "color_map": "simple_armor:color_map:helmet_eye_glowing",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json"
+         ]       
+      },
+      
+      "model_variants": {
+         "default": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(dragon_hunter_helmet.qb)"
+            ]
+         },
+         "female": {
+            "layer": "hat",
+            "transparent": "false",
+            "models": [
+               "file(dragon_hunter_helmet_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+        "render_type": "merge_with_model",
+         "slot": "helmet",
+         "ilevel": 1,
+         "roles": ["dragon_hunter_job"],
+         "no_drop": true
+      },
+         
+         "injected_buffs": [
+            "stonehearth_ace:buffs:weather:sunstroke_resist"
+         ],
+         "equip_effect": "stonehearth:effects:weapon_level_up"
+      },
+
+   "entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 6
+      },
+
+      "stonehearth:catalog": {
+         "display_name": "Novice Dragon Helmet",
+         "description": "Helmet worn by beginner dragon hunters",
+         "icon": "file(dragon_hunter_helmet.png)",
+      }
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "type": "buff",
+   "display_name": "Dragon Boost Damage",
+   "description": "the dragon hunter is unstoppable",
+   "icon": "file(dragon_boost_damage.png)",
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 1.2
+      }
+   }
+}

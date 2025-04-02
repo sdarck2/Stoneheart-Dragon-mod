@@ -1,0 +1,20 @@
+{
+   "type": "buff",
+   "display_name": "Dragon Skin",
+   "description": "You feel like your body can take more damage",
+   "icon": "file(dragon_skin_buff.png)",
+   "modifiers": {
+      "stamina": {
+         "add": 250
+      },
+      "courage": {
+         "add": 150
+      },
+      "menace": {
+         "add": 150
+      },
+       "multiplicative_armor_modifier": {
+         "add": 0.6
+      }
+   }
+}

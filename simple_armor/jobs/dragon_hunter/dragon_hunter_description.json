@@ -1,0 +1,129 @@
+{
+   "type"           : "job",
+   "enabled"        : true,
+   "job_id"         : "dragon_hunter",
+   "display_order"  : 1,
+   "alias"          : "simple_armor:jobs:dragon_hunter",
+   "display_name"   : "Dragon Hunter",
+   "controller"     : "simple_armor:class:dragon_hunter",
+   "description"    : "class that specializes in fighting dragons",
+   "requirements"   : "Crafted by a Dragon Blacksmith",
+   "talisman_uri"   : "simple_armor:dragon_hunter:dragon_sword_talisman",
+   "default_stance" : "aggressive",
+   "abilities"      : "file(dragon_hunter_abilities)",
+   "equipment": {
+      "torso"    : "simple_armor:jobs:dragon_hunter_outfit",
+      "mainhand" : "simple_armor:weapons:dragon_sword",
+      "helmet"   : "simple_armor:jobs:dragon_hunter_helmet"
+   },
+  "roles":["dragon_hunter_job",  "melee_combat", "combat"],
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue",
+       "stonehearth:task_groups:healing"
+   ],
+   "xp_rewards": {
+      "town_protection": 1,
+      "training":1
+   },
+   "max_training_level": 2,
+   "icon": "file(images/icon3.png)",
+   "mixintypes": {
+      "parent_job": "remove",
+      "parent_level_requirement": "remove"
+   },
+
+   "icon": "file(images/icon.png)",
+   "parent_job": "stonehearth:jobs:worker",
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "Dragon Aura",
+               "id": "dragon_aura_buff",
+               "icon": "file(images/dragon_aura_buff.png)",
+               "buff_name": "simple_armor:jobs:dragon_hunter:dragon_hunter_buff:dragon_aura",
+               "description": "The dragon hunter generates an aura that gives strength to your allies",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "First Line Rusher",
+               "id": "footman_speed_up",
+               "icon": "file(images/footman_perk_speed_boost.png)",
+               "buff_name": "simple_armor:jobs:dragon_hunter:dragon_hunter_buff:first_line_rusher",
+               "description": "The dragon hunter gain more speed to no lost his objective",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "Dragon Jump",
+               "id": "dragon_power_jump",
+               "icon": "file(images/dragon_power_jump.png)",
+               "equipment": "simple_armor:dragon_hunter:manual_of_dragon_jump",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "With the experience gained from the combat the dragon hunter  has learned to do a somersault that wounds several nearby enemies",
+               "level": 3,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "Dragon Skin",
+               "id": "footman_damage_up_2",
+               "icon": "file(images/dragon_skin_buff.png)",
+               "buff_name": "simple_armor:jobs:dragon_hunter:dragon_hunter_buff:dragon_skin_buff",
+               "description": "With the battles that your dragon hunter had, he has gained more resistance to continue fighting in even more ferocious battles ",
+               "level": 4,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "Dragon Surge",
+               "id": "dragon_cleave",
+               "icon": "file(images/cleave.png)",
+               "equipment": "simple_armor:dragon_hunter:manual_of_dragon_cleave",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "Inflict a group attack that takes up to 6 enemies",
+               "level": 5,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "Dragon Boost",
+               "id": "footman_damage_up_3",
+               "icon": "file(images/dragon_boost_damage.png)",
+               "buff_name": "simple_armor:jobs:dragon_hunter:dragon_hunter_buff:dragon_boost",
+               "last_buff": "stonehearth:buffs:footman:dmg_2",
+               "description": "By mastering what this class is, the dragon hunter has learned how to inflict a mortal damage on his enemies.",
+               "level": 6,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "First Line Rusher",
+   "description": "You will not escape from me",
+   "icon": "file(footman_buff_speed_boost.png)",
+   "modifiers": {
+      "speed": {
+         "add": 40
+      }
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name":  "Dragon Aura",
+   "description": "An aura of bravery surrounds you",
+   "icon": "file(dragon_buff_is_inspired.png)",
+   "duration": "12m",
+   "repeat_add_action": "renew_duration",
+   "persistent": false,
+   "modifiers": {
+      "courage": {
+         "add": 70
+      }
+   }
+}

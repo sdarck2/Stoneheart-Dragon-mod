@@ -1,0 +1,21 @@
+{
+   "type": "buff",
+   "axis":"buff",
+   "display_name": "Dragon Aura",
+   "description": "The dragon hunter generates an aura that gives courage to your nearby units",
+   "icon": "file(dragon_aura_buff.png)",
+    "script": "stonehearth:buff_scripts:aura",
+   "modifiers": {
+      "multiplicative_dmg_modifier": {
+         "add": 0.2
+      }
+   },
+    "script_info": {
+      "pulse": "10m",
+      "aura_buff": "simple_armor:jobs:dragon_hunter:dragon_hunter_buff:dragon_aura_effect",
+      "radius": 25,
+      "affect_self": false,
+      "pulse_immediately": true,
+      "target_type": "mob"
+   }
+}

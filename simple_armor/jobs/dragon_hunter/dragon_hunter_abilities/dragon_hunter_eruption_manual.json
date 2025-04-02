@@ -1,0 +1,22 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "dragon_hunter_eruption",
+            "effect": "dragon_hunter_eruption",
+            "active_frame": 46,
+            "cooldown": 10000,
+            "priority": 1,
+            "damage_multiplier": 2.0,
+            "aoe_effect": {
+               "damage_multiplier": 1.55,
+               "aoe_target_limit": 4
+            }
+         }
+      ]
+   }
+}
