@@ -1,0 +1,35 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+         "type": "animation_effect",
+         "start_time": 0,
+         "animation": "fireball_idle.json",
+         "loop": true
+       },
+      "cubemitter_flame": {
+         "type": "cubemitter",
+         "start_time": 0,
+         "_end_time": 100,
+         "loop": true,
+         "cubemitter": "particles/fire/fire_arrow_flame.cubemitter.json",
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      },
+      "cubemitter_smoke": {
+         "type": "cubemitter",
+         "start_time": 0,
+         "_end_time": 100,
+         "loop": true,
+         "cubemitter": "particles/fire/fire_arrow_smoke.cubemitter.json",
+         "transforms": { "x": 0, "y": 0, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         }
+      }
+   }
+}
