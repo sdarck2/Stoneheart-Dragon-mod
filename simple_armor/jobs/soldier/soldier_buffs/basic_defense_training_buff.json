@@ -1,0 +1,17 @@
+{
+   "type": "buff",
+   "display_name": "Basic Defense Training",
+   "description": "Ready to protect",
+   "icon": "file(basic_defense_training_buff.png)",
+   "modifiers": {
+      "stamina": {
+         "add": 100
+      },
+      "courage": {
+         "add": 150
+      },
+       "multiplicative_armor_modifier": {
+         "add": 0.2
+      }
+   }
+}

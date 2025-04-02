@@ -1,0 +1,12 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name": "Toughness",
+   "description": "You will have to go through me first",
+   "icon": "file(Toughness.png)",
+   "modifiers": {
+       "multiplicative_armor_modifier": {
+         "add": 0.6
+      }
+   }
+}

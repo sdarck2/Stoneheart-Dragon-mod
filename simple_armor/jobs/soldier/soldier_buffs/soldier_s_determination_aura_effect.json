@@ -1,0 +1,15 @@
+{
+   "type": "buff",
+   "axis": "buff",
+   "display_name":  "Determination",
+   "description": "You feel that you can with everything",
+   "icon": "file(soldier_s_determination_aura_effect.png)",
+   "duration": "12m",
+   "repeat_add_action": "renew_duration",
+   "persistent": false,
+   "modifiers": {
+    "stamina": {
+         "add": 100
+      }
+   }
+}

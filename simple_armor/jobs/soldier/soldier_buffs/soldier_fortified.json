@@ -1,0 +1,11 @@
+{
+   "type": "buff",
+   "display_name": "Soldier Fortified",
+   "description": "Come for me",
+   "icon": "file(soldier_fortified.png)",
+   "modifiers": {
+      "stamina": {
+         "add": 150
+      }
+   }
+}

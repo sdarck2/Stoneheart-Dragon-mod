@@ -1,0 +1,14 @@
+{
+   "jobs": {
+      "simple_armor:jobs:dragon_hunter":{
+         "description":"simple_armor:jobs:dragon_hunter",
+      },
+      "simple_armor:jobs:soldier":{
+         "description":"simple_armor:jobs:soldier",
+      },
+      "simple_armor:jobs:dragon_blacksmith":{
+         "description":"simple_armor:jobs:dragon_blacksmith",
+      },
+      
+   }
+}

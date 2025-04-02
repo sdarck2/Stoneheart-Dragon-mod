@@ -1,0 +1,23 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {}
+   },
+   "entity_data": {
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "full_charge_attack",
+            "effect": "full_charge_attack",
+            "active_frame": 90,
+            "cooldown": 20000,
+            "priority": 1,
+            "damage_multiplier": 5.0,
+              "aoe_effect": {
+               "damage_multiplier": 3.75,
+               "aoe_target_limit": 2
+            }
+         },
+
+      ]
+   }
+}

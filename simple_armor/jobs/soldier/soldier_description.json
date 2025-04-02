@@ -1,0 +1,128 @@
+{
+   "type"           : "job",
+   "enabled"        : true,
+   "job_id"         : "soldier",
+   "display_order"  : 1,
+   "alias"          : "simple_armor:jobs:soldier",
+   "display_name"   : "Soldier",
+   "controller"     : "simple_armor:class:soldier",
+   "description"    : "Class that is in charge of protecting the people, has good defense",
+   "requirements"   : "Crafted by a Dragon Blacksmith",
+   "talisman_uri"   : "simple_armor:soldier:soldier_lance_talisman",
+   "default_stance" : "aggressive",
+   "abilities"      : "file(soldier_abilities)",
+   "equipment": {
+      "torso"    : "simple_armor:jobs:soldier_outfit",
+      "mainhand" : "simple_armor:weapons:soldier_lance",
+   },
+  "roles":["soldier_job",  "melee_combat", "combat", "plate_wearer",],
+   "task_groups": [
+      "stonehearth:task_groups:common_tasks",
+      "stonehearth:task_groups:restock",
+      "stonehearth:task_groups:rescue",
+       "stonehearth:task_groups:healing"
+   ],
+   "xp_rewards": {
+      "town_protection": 1,
+      "training":1
+   },
+   "max_training_level": 2,
+   "icon": "file(images/icon.png)",
+   "mixintypes": {
+      "parent_job": "remove",
+      "parent_level_requirement": "remove"
+   },
+
+   "icon": "file(images/icon.png)",
+   "parent_job": "stonehearth:jobs:worker",
+   "max_level": 6,
+   "level_data": {
+      "1": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "Basic Defense Training",
+               "id": "basic_defense_training_buff",
+               "icon": "file(images/basic_defense_training_buff.png)",
+               "buff_name": "simple_armor:jobs:soldier:soldier_buff:basic_defense_training_buff",
+               "description": "The soldier will have more resistance to last longer on the battlefield",
+               "level": 1,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "2": {
+         "perks": [
+            {
+               "type": "apply_buff",
+               "name": "Soldier's Determination",
+               "id": "soldier's_determination",
+               "icon": "file(images/soldier_s_determination.png)",
+               "buff_name": "simple_armor:jobs:soldier:soldier_buff:soldier's_determination_aura_buff",
+               "description": "Due to the strong determination of the soldier an aura is generated that gives more resistance to your allied units",
+               "level": 2,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "3": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "Soldier Attack",
+               "id": "soldier_attack",
+               "icon": "file(images/soldier_attack.png)",
+               "equipment": "simple_armor:soldier:soldier_attack_manual",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "An attack that does triple the damage of a normal one",
+               "level": 3,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "4": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "Toughness",
+               "id": "toughness",
+               "icon": "file(images/toughness.png)",
+               "buff_name": "simple_armor:jobs:soldier:soldier_buff:toughness",
+               "description": "Your soldier has learned how to last longer in battles ",
+               "level": 4,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      },
+      "5": {
+         "perks": [
+            {
+               "type": "add_combat_action",
+               "name": "Full Charge Attack",
+               "id": "full_charge_attack",
+               "icon": "file(images/full_charge_attack.png)",
+               "equipment": "simple_armor:soldier:manual_of_full_charge_attack",
+               "action_type": "stonehearth:combat:melee_attacks",
+               "description": "Deals a lot of damage after a long charge",
+               "level": 5,
+               "demote_fn": "remove_combat_action"
+            }
+         ]
+      },
+      "6": {
+         "perks": [
+            {
+               "type": "apply_chained_buff",
+               "name": "Soldier Fortified",
+               "id": "soldier_fortified",
+               "icon": "file(images/soldier_fortified.png)",
+               "buff_name": "simple_armor:jobs:soldier:soldier_buff:soldier_fortified",
+               "last_buff": "stonehearth:buffs:footman:dmg_2",
+               "description": "With the experience gained in combat, the soldier has increased his resistance much more",
+               "level": 6,
+               "demote_fn": "remove_buff"
+            }
+         ]
+      }
+   }
+}

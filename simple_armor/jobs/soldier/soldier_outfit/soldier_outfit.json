@@ -1,0 +1,50 @@
+{
+	"mixins": [
+		"stonehearth:mixins:item_properties",
+		"stonehearth_ace:mixins:armor:medium_armor_torso",
+		"stonehearth_ace:mixins:armor:resistance:torso:low"
+	],
+	"type": "entity",
+	"components": {
+		"model_variants": {
+			"default": {
+				"layer": "clothing",
+				"transparent": false,
+				"models": [
+					"file(soldier_outfit.qb)"
+				]
+			},
+		
+		 "female": {
+            "layer": "clothing",
+            "transparent": false,
+            "models": [
+               "file(soldier_outfit_female.qb)"
+            ]
+         },
+        },
+
+	
+
+		"stonehearth:equipment_piece": {
+			"slot": "torso",
+			"render_type": "merge_with_model",
+			"ilevel": 1,
+			"required_job_level": 1,
+			"roles": ["soldier_job"],
+			"equip_effect": "stonehearth:effects:weapon_level_up",
+			"no_drop": true
+		}
+	},
+ 	"entity_data": {
+      "stonehearth:combat:armor_data": {
+         "base_damage_reduction": 10
+      },
+		"stonehearth:catalog": {
+			"display_name": "Soldier Armor",
+			"description": "Basic armor for soldiers",
+			"icon": "file(soldier_outfit.png)",
+		
+		}
+	}
+}
