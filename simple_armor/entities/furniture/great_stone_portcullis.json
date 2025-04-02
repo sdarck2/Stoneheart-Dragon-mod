@@ -1,0 +1,49 @@
+{
+   "type": "entity",
+   "mixins": [
+      "file(great_stone_portcullis_ghost.json)",
+      "simple_armor:mixins:door:destructable",
+      "simple_armor:mixins:door",
+   ],
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(great_stone_portcullis_iconic.json)",
+         "ghost_form": "file(great_stone_portcullis_ghost.json)",
+         "hide_placement_ui": false
+      },
+      "stonehearth:commands": {
+         "commands": [
+            "stonehearth:commands:toggle_lock"
+         ]
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 2000
+         },
+         "menace": {
+            "type": "basic",
+            "value": 30
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:entity_radius": 0.5,
+      "stonehearth:net_worth": {
+         "value_in_gold": 130,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan",
+            "shopkeeper_level": 2
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 40
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

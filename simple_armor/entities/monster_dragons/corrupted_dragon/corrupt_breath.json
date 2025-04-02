@@ -1,0 +1,32 @@
+{
+   "type": "entity",
+   "components": {
+      "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "none"
+      }
+   },
+   "entity_data": {
+      "stonehearth:combat:weapon_data": {
+         "base_damage": 40,
+         "reach": 1.5
+      },
+         "stonehearth:buffs": {
+         "inflictable_debuffs": {
+            "poison": {
+               "uri": "simple_armor:buffs:fire:corrupt_fire",
+               "chance": 0.7
+            }
+         }
+      },
+      "stonehearth:combat:melee_attacks": [
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 42,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ]
+   }
+}

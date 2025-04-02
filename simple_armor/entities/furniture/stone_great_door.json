@@ -1,0 +1,34 @@
+{
+   "mixins": [
+      "file(stone_great_door_ghost.json)",
+      "simple_armor:mixins:door",
+      "stonehearth:mixins:destructable_double_door"
+   ],
+   "type": "entity",
+   "components": {
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(stone_great_door_iconic.json)",
+         "ghost_form": "file(stone_great_door_ghost.json)",
+         "hide_placement_ui": false
+      },
+   },
+   "entity_data": {
+      "stonehearth:net_worth": {
+         "value_in_gold": 8,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 1,
+            "shopkeeper_type": "caravan"
+         }
+      },
+   
+      "stonehearth:appeal": {
+         "appeal": 8
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}

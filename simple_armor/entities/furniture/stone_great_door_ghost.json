@@ -1,0 +1,26 @@
+{
+   "type": "entity",
+   "mixins": [
+      "stonehearth:mixins:placed_object",
+      "simple_armor:mixins:door_ghost"
+   ],
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(stone_great_door.qb)"
+            ]
+         }
+      },
+   },
+
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "a test",
+         "description": "Hello there",
+         "icon": "file(stone_great_door.png)",
+         "category": "door",
+         "material_tags": ["wood", "portal", "crafted", "door", "stockpile_portal"]
+      }
+   }
+}

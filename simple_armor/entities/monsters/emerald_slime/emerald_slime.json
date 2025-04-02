@@ -1,0 +1,80 @@
+{
+   "type": "entity",
+       "mixins": "stonehearth:mixins:monster",
+       
+   "components": {
+      "render_info": {
+         "scale": 0.2,
+         "animation_table": "file(/data/rigs/entities/monsters/emerald_slime)",
+         "color_map": "simple_armor:color_map:dragon_eye_glowing",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json",
+
+
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(emerald_slime.qb)"
+            ]
+         }
+      },
+        "stonehearth:equipment": {
+         "items": [
+            "simple_armor:weapons:slime_attack"
+         ]
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 600
+         },
+         "speed": {
+            "type": "basic",
+            "value": 100
+         }
+      },
+        "loot_drops": {
+        "entries": {
+           "default": {
+                "roll_type": "some_of",
+            "num_rolls": {
+              "min": 3,
+               "max": 5
+          },
+               "items": {
+                 "wyvern_skin":{
+                   "uri":"simple_armor:resources:emerald_ore",
+                   "weight":10
+                },
+            "draconite_ore": {
+                     "uri": "simple_armor:resources:draconite_ore:ore",
+                     "weight": 5,
+                  },
+
+               }
+            },
+    
+      }
+   }
+},
+     "sensor_list": {
+      "sensors": {
+         "sight": {
+            "type": "sensor",
+            "radius": 15
+         }
+      }
+   },
+ 
+   "entity_data": {
+      "stonehearth:entity_radius": 0.3,
+
+      "stonehearth:catalog": {
+         "display_name": "i18n(simple_armor:entities.monsters.corrupted_dragon.display_name)",
+         "description": "i18n(simple_armor:entities.monsters.corrupted_dragon.description)",
+         "icon": "file(emerald_slime.png)",
+      },
+   }
+}

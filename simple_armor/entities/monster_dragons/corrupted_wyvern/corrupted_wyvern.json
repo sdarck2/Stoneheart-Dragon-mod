@@ -1,0 +1,80 @@
+{
+   "type": "entity",
+       "mixins": "stonehearth:mixins:monster",
+       
+   "components": {
+      "render_info": {
+         "scale": 0.3,
+         "animation_table": "file(/data/rigs/entities/pets/corrupt_wyvern)",
+         "color_map": "simple_armor:color_map:dragon_eye_glowing",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json",
+
+
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(corrupted_wyvern.qb)"
+            ]
+         }
+      },
+        "stonehearth:equipment": {
+         "items": [
+            "simple_armor:weapons:corrupt_dragon"
+         ]
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 5000
+         },
+         "speed": {
+            "type": "basic",
+            "value": 120
+         }
+      },
+          "loot_drops": {
+        "entries": {
+           "default": {
+                "roll_type": "each_of",
+            "num_rolls": {
+              "min": 5,
+               "max": 8
+          },
+               "items": {
+                 "wyvern_skin":{
+                   "uri":"simple_armor:resources:wyvern_skin",
+                   "weight":10
+                },
+            "draconite_ore": {
+                     "uri": "simple_armor:resources:draconite_ore:ore",
+                     "weight": 5,
+                  },
+
+               }
+            },
+     
+      }
+   }
+},
+     "sensor_list": {
+      "sensors": {
+         "sight": {
+            "type": "sensor",
+            "radius": 15
+         }
+      }
+   },
+ 
+   "entity_data": {
+      "stonehearth:entity_radius": 0.3,
+
+      "stonehearth:catalog": {
+         "display_name": "i18n(simple_armor:entities.monsters.corrupted_wyvern.display_name)",
+         "description":  "i18n(simple_armor:entities.monsters.corrupted_wyvern.description)",
+         "icon": "file(corrupt_dragon.png)",
+      },
+   }
+}
