@@ -1,0 +1,11 @@
+{
+	 "skeleton": {
+		 "ATTOVERCOG": [0.000000,0.000000,14.092866],
+		 "bodyposition": [0.000000,2.371805,3.072108],
+		 "head": [-0.485337,3.002932,3.788857],
+		 "root": [0.000000,0.000000,0.000000]
+	},
+	"animation_root" : "file(animations)",
+   "effects_root": "file(effects)",
+   "postures" : "file(postures.json)",
+}
