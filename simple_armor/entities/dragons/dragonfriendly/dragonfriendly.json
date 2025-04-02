@@ -1,0 +1,136 @@
+{
+   "type": "entity",
+"mixins":"simple_armor:mixins:dragons",
+       
+   "components": {
+      "render_info": {
+         "scale": 0.2,
+          "animation_table":  "/simple_armor/data/rigs/entities/pets/friendly_dragon/friendly_dragon.json",
+         "color_map": "stonehearth:color_map:mob",
+         "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json",
+
+
+         ]
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dragonfriendly.qb)"
+            ]
+         }
+      },
+        "stonehearth:equipment": {
+         "items": [
+            "simple_armor:weapons:breath:dragon_fire",
+         ]
+      },
+      "stonehearth:attributes": {
+         "max_health": {
+            "type": "basic",
+            "value": 3500
+         },
+         "speed": {
+            "type": "basic",
+            "value": 120
+         },
+            "muscle":{
+            "type":"basic",
+            "value":300,
+         },
+         "menace": {
+            "type": "basic",
+            "value": 0
+         },
+         "courage": {
+            "type": "basic",
+            "value": 900
+         },
+         "min_calories": {
+            "type": "basic",
+            "value": -50
+         },
+         "max_calories": {
+            "type": "basic",
+            "value":100
+         },
+         "min_sleepiness": {
+            "type": "basic",
+            "value": 0
+         },
+         "max_sleepiness": {
+            "type": "basic",
+            "value": 45
+         },
+         "max_social_satisfaction": {
+            "type": "basic",
+            "value": 78
+         },
+         "exp_reward": {
+            "type": "basic",
+            "value": 0
+         }
+      },
+         "sensor_list": {
+      "sensors": {
+         "sight": {
+            "type": "sensor",
+            "radius": 60
+         }
+      }
+   },
+   "stonehearth:combat_state": {
+         "stance": "aggressive"
+      },
+
+},
+  
+ 
+
+ 
+   "entity_data": {
+      "stonehearth:entity_radius": 0.3,
+      "stonehearth:species": {
+         "id": "dragon",
+		 "display_name": "i18n(simple_armor:entities.pets.dragon_pet.species)"
+      },
+       "stonehearth:ai_packs": {
+
+         "packs": [
+            "stonehearth:ai_pack:combat",
+            "stonehearth:ai_pack:combat_control",
+            "stonehearth:ai_pack:humanoid",
+            
+         ]
+      },
+     
+    
+         "stonehearth:calories": {
+         "hungry_threshold": 0,
+         "famished_threshold": -7,
+         "malnourished_threshold": -13,
+         "hourly_calorie_loss": 0.2
+      },
+
+      "stonehearth:diet": {
+         "food_material": "meat"
+      },
+      "stonehearth:conversation_type": "animal",
+      "stonehearth:catalog": {
+	     "player_id": "animals",
+		 "display_name": "i18n(simple_armor:entities.pets.dragon_pet.display_name)",
+         "description": "i18n(simple_armor:entities.pets.dragon_pet.description)",
+         "icon": "file(dragonfriendly.png)",
+         "category": "pets"
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 3000,
+         "shop_info": {
+            "buyable": false,
+            "sellable": false,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "pet"
+         }
+      }
+   }
+}
