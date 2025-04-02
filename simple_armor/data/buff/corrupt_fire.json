@@ -1,0 +1,35 @@
+{
+   "type": "buff",
+   "axis": "debuff",
+   "category": "fire",
+   "rank": 3,
+   "unique_in_category": true,
+   "display_name": "Corrupt Fire",
+   "description": "Not even water can turn it off",
+   "icon": "file(corrupt_fire.png)",
+   "queue_crafting_order": "",
+   "reembarkable": true,
+   "duration": "12h",
+   "cant_affect_siege": true,
+   "repeat_add_action": "renew_duration",
+   "modifiers": {
+      "muscle": {
+         "multiply": 1.4
+      },
+      "willpower": {
+         "multiply": 1.4
+      }
+   },
+   "effect": "simple_armor:effects:corrupt_fire",
+   "restore_effect": true,
+   "script": "stonehearth:buff_scripts:periodic_health_modification",
+   "script_info": {
+      "health_change": -0.02,
+      "pulse": "15m",
+       "min_health": 0.75,
+        "cannot_kill": true,
+      "pulse_immediately": false,
+      "pulse_on_destroy": false,
+      "is_percentage": true
+   }
+}
