@@ -1,0 +1,71 @@
+{
+	"mixins": [
+		"stonehearth:mixins:item_properties",
+		"stonehearth_ace:mixins:weapons:twohanded_open_wounds_minor"
+	],
+	"type": "entity",
+	"components": {
+		"model_variants": {
+			"default": {
+				"models": [
+					"file(sword_of_seals_equipped.qb)"
+				]
+			}
+		},
+		"stonehearth:entity_forms": {
+			"iconic_form": "file(sword_of_seals_iconic.json)"
+		},
+		"stonehearth:equipment_piece": {
+
+			"postures": [
+				"stonehearth:combat",
+				"stonehearth:patrol"
+
+			],
+
+			"ilevel": 17,
+			"roles": [
+				"footman_job"
+			],
+			"required_job_level": 1,
+			"equip_effect": "stonehearth:effects:weapon_level_up"
+		}
+	},
+	"entity_data": {
+		"stonehearth:combat:weapon_data": {
+			"base_damage": 35,
+			"reach": 1.4
+		},
+		"stonehearth:combat:melee_attacks": [{
+				"name": "combat_2h_attack",
+				"effect": "combat_2h_attack",
+				"active_frame": 21,
+				"cooldown": 0,
+				"priority": 2
+			}
+
+		],
+		"stonehearth:net_worth": {
+			"value_in_gold": 0,
+			"rarity": "common",
+			"shop_info": {
+				"buyable": false,
+				"sellable": false,
+				"shopkeeper_level": 3,
+				"shopkeeper_type": "caravan"
+			}
+		},
+		"stonehearth:catalog": {
+			"display_name": "Sword of seals",
+			"description": "the sacred Sword capable to seal dragons",
+			"icon": "file(sword_of_seals.png)",
+			"category": "weapons",
+			"material_tags": [
+				"iron",
+				"ascendancy_made",
+				"sword",
+				"crafted"
+			]
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(sword_of_seals.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "(Sword of seals)",
+         "description": "a sword capable to seal dragons",
+         "icon": "file(sword_of_seals_iconic.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}

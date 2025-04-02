@@ -1,0 +1,9 @@
+{
+   "mixins": "stonehearth/entities/terrain/ui/ore_block",
+   "entity_data": {
+      "stonehearth:catalog": {
+             "display_name": "i18n(simple_armor:entities.ui.draconite_block.display_name)",
+         "description": "i18n(simple_armor:entities.ui.draconite_block.description)",
+      }
+   }
+}

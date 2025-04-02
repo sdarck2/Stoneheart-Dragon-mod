@@ -1,0 +1,23 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dragon_sword_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+        "display_name": "i18n(simple_armor:entities.weapons.dragon_sword.display_name)",
+         "description":"i18n(simple_armor:entities.weapons.dragon_sword.description)",
+         "icon": "file(dragon_sword.png)",
+         "is_item": true,
+         "category": "weapons",
+         "material_tags": ["draconite", "melee_weapon"]
+      }
+   }
+}

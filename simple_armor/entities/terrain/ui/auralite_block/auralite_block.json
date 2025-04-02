@@ -1,0 +1,10 @@
+{
+   "mixins": "stonehearth/entities/terrain/ui/ore_block",
+   "components": {},
+   "entity_data": {
+      "stonehearth:catalog": {
+       "display_name": "i18n(simple_armor:entities.ui.auralite_block.display_name)",
+         "description": "i18n(simple_armor:entities.ui.auralite_block.description)",
+      }
+   }
+}

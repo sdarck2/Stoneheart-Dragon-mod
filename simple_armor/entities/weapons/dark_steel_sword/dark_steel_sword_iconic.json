@@ -1,0 +1,22 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dark_steel_sword_iconic.qb)"
+            ]
+         }
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+             "display_name": "i18n(simple_armor:entities.weapons.dark_steel_sword.display_name)",
+         "description": "i18n(simple_armor:entities.weapons.dark_steel_sword.description)",
+         "icon": "file(dark_steel_sword.png)",
+         "is_item": true,
+         "category": "weapons"
+      }
+   }
+}
