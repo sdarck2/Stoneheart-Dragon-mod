@@ -1,0 +1,64 @@
+{
+   "palettes" :{
+      "spring" :{
+         "draconite_ore" :   "#8B0000"
+      },
+      "summer" :{
+         "draconite_ore" :   "#8B0000"
+      },
+      "autumn" :{
+         "draconite_ore" :   "#8B0000"
+      },
+      "winter" :{
+         "draconite_ore" :   "#8B0000"
+      },
+      "spring" :{
+         "esmerald_ore" :   "#00a200"
+      },
+      "summer" :{
+         "esmerald_ore" :   "#00a200"
+      },
+      "autumn" :{
+         "esmerald_ore" :   "#00a200"
+      },
+      "winter" :{
+         "esmerald_ore" :   "#00a200"
+       },
+        "spring" :{
+         "auralite_ore" :   "#0A2A75"
+      },
+      "summer" :{
+         "auralite_ore" :   "#0A2A75"
+      },
+      "autumn" :{
+         "auralite_ore" :   "#0A2A75"
+      },
+      "winter" :{
+         "auralite_ore" :   "#0A2A75"
+   },
+        "spring" :{
+         "wyvern_ore" :   "#301611"
+      },
+      "summer" :{
+         "wyvern_ore" :   "#301611"
+      },
+      "autumn" :{
+         "wyvern_ore" :   "#301611"
+      },
+      "winter" :{
+         "wyvern_ore" :   "#301611"
+      },
+         "spring" :{
+         "dark_steel_ore" :   "#005363"
+      },
+      "summer" :{
+         "dark_steel_ore" :   "#005363"
+      },
+      "autumn" :{
+         "dark_steel_ore" :   "#005363"
+      },
+      "winter" :{
+         "dark_steel_ore" :   "#005363"
+      }
+   }
+}
