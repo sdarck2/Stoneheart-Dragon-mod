@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 10,
+   "recipe_name": "Sword Of Seals",
+   "description": "A sacred blade capable to seals dragons",
+   "flavor": "if you find a dragon that you don't like, give him a scare with this sword",
+   "portrait": "/simple_armor/entities/weapons/sword_of_seals/sword_of_seals.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+         "uri": "stonehearth:refined:steel_ingot",
+         "count": 8
+      },
+      {
+         "material": "leather resource",
+         "count": 4
+      },
+      {
+         "material": "thread resource",
+         "count": 9
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:weapons:sword_of_seals"
+      }
+   ]
+}

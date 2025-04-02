@@ -1,0 +1,23 @@
+{
+   "type": "recipe",
+   "effort": 60,
+   "work_units": 11,
+   "recipe_name": "i18n(simple_armor:entities.refined.draconite_ingot.display_name)",
+         "description": "i18n(simple_armor:entities.refined.draconite_ingot.description)",
+   "flavor": "Feel the whrath",
+   "portrait": "/simple_armor/entities/refined/draconite/draconite_ingot.png",
+      "workshop": "stonehearth_ace:blacksmith:forge_advanced",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+        "uri": "simple_armor:resources:draconite_ore:ore",
+         "count": 6
+      },
+    
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:refined:draconite_ingot"
+      }
+   ]
+}

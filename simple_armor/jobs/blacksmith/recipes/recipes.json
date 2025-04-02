@@ -1,0 +1,13 @@
+{
+   "craftable_recipes" : {
+
+      "tools":{
+        "recipes":{
+            "dragon_blacksmith_hammer_recipe":{
+                "recipe":"file(dragon_blacksmith_hammer_recipe.json)"
+            }
+        }
+
+      },
+   }
+}

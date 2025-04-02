@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 11,
+   "recipe_name": "i18n(simple_armor:entities.armor.esmerald_helmet.display_name)",
+         "description": "i18n(simple_armor:entities.armor.esmerald_helmet.description)",
+   "flavor": "Caution will not allow you to jump higher",
+   "portrait": "/simple_armor/entities/armor/esmerald_helmet/esmerald_helmet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+        "uri": "simple_armor:refined:esmerald_ingot",
+         "count": 5
+      },
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:armor:esmerald_helmet"
+      }
+   ]
+}

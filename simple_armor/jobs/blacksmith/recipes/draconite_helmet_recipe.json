@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 11,
+   "recipe_name": "i18n(simple_armor:entities.armor.draconite_helmet.display_name)",
+         "description": "i18n(simple_armor:entities.armor.draconite_helmet.description)",
+   "flavor": "(Dragon breath not included)",
+   "portrait": "/simple_armor/entities/armor/draconite_helmet/draconite_helmet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+        "uri": "simple_armor:refined:draconite_ingot",
+         "count": 8
+      },
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:armor:draconite_helmet"
+      }
+   ]
+}

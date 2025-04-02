@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 11,
+   "recipe_name":  "i18n(simple_armor:entities.tools.dragon_blacksmith_hammer.display_name)",
+         "description":"i18n(simple_armor:entities.tools.dragon_blacksmith_hammer.description)",
+   "flavor": "",
+   "portrait": "/simple_armor/jobs/dragon_blacksmith/dragon_blacksmith_hammer/dragon_blacksmith_hammer.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+        "uri": "simple_armor:resources:draconite_ore:ore",
+         "count": 5
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:jobs:dragon_blacksmith:dragon_blacksmith_hammer_talisman"
+      }
+   ]
+}

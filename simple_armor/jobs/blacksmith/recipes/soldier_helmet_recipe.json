@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 11,
+   "recipe_name": "i18n(simple_armor:entities.armor.soldier_helmet.display_name)",
+         "description": "i18n(simple_armor:entities.armor.soldier_helmet.description)",
+   "flavor": "Pain, what is that?",
+   "portrait": "/simple_armor/entities/armor/soldier_helmet/soldier_helmet.png",
+   "workshop": "stonehearth:blacksmith:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+        "uri": "stonehearth:refined:iron_ingot",
+         "count": 6
+      },
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:armor:soldier_helmet"
+      }
+   ]
+}
