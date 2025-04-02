@@ -1,0 +1,110 @@
+{
+   "craftable_recipes" : {
+   
+        "workbenches": {
+             "ordinal": 1,
+                "name" : "Workbenches",
+          "recipes" : {
+                "dragon_blacksmith_forge_recipe" : {
+                    "recipe" : "file(dragon_blacksmith_forge_recipe.json)"
+                },
+                "dragon_blacksmith_workbench_recipe" : {
+                    "recipe" : "file(dragon_blacksmith_workbench_recipe.json)"
+        },
+    },
+},
+      "armor" : {
+        "ordinal": 4,
+         "name":"Armor",
+         "recipes" : {
+            "dark_steel_armor_recipe":{
+                "recipe":"file(dark_steel_armor_recipe.json)"
+            },
+            "dark_steel_helmet_recipe":{
+                "recipe":"file(dark_steel_helmet_recipe.json)"
+            },
+            "aural_armor_recipe" : {
+               "recipe" : "file(aural_armor_recipe.json)"
+            },
+            "light_aural_shield_recipe":{
+                "recipe":"file(light_aural_shield_recipe.json)"
+            },
+      		"esmerald_helmet_recipe":{
+      			"recipe":"file(esmerald_helmet_recipe.json)"
+      		},
+            "esmerald_armor_recipe":{
+            "recipe":"file(esmerald_armor_recipe.json)"
+            },
+      		"aural_helmet_recipe":{
+      			"recipe":"file(aural_helmet_recipe.json)"
+      		},
+            "draconite_helmet_recipe":{
+                "recipe":"file(draconite_helmet_recipe.json)"
+            },
+            "draconite_armor_recipe":{
+                "recipe":"file(draconite_armor_recipe.json)"
+            },
+            "soldier_helmet_recipe":{
+                "recipe":"file(soldier_helmet_recipe.json)"
+            }
+           
+      	}
+      },
+      "tools":{
+        "ordinal":2,
+         "name":"Tools",
+        "recipes":{
+         "dragon_sword_recipe":{
+                "recipe":"file(dragon_sword_recipe.json)"
+            },
+            "soldier_lance_recipe":{
+                "recipe":"file(soldier_lance_recipe.json)"
+            },
+        }
+
+      },
+      "weapons":{
+        "ordinal":5,
+         "name":"Weapons",
+        "recipes":{
+            "aural_sword_recipe":{
+                "recipe":"file(aural_sword_recipe.json)"
+            },
+               "esmerald_sword_recipe":{
+                   "recipe":"file(esmerald_sword_recipe.json)"
+			},
+                "wirmslayer_recipe":{
+                        "recipe":"file(wirmslayer_recipe.json)"
+				},
+                "dragon_fang_recipe":{
+                    "recipe":"file(dragon_fang_recipe.json)"
+                },
+                "dark_steel_sword_recipe":{
+                    "recipe":"file(dark_steel_sword_recipe.json)"
+                },
+                  "dark_steel_lance_recipe":{
+                    "recipe":"file(dark_steel_lance_recipe.json)"
+                }
+			}
+        },
+        "smelt":{
+            "ordinal":3,
+            "name":"Smelting",
+          "recipes":{
+            "esmerald_ingot_recipe":{
+              "recipe":"file(esmerald_ingot_recipe.json)"
+
+            },
+        		"auralite_ingot_recipe":{
+        			"recipe":"file(auralite_ingot_recipe.json)"
+        		},
+                "draconite_ingot_recipe":{
+                    "recipe":"file(draconite_ingot_recipe.json)"
+                },
+                "dark_steel_ingot_recipe":{
+                    "recipe":"file(dark_steel_ingot_recipe.json)"
+                }
+        	}
+        }
+   }
+}

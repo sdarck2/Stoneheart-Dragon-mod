@@ -1,0 +1,26 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 11,
+   "recipe_name":  "i18n(simple_armor:entities.weapons.dark_steel_lance.display_name)",
+         "description": "i18n(simple_armor:entities.weapons.dark_steel_lance.description)",
+   "flavor": "",
+   "portrait": "/simple_armor/entities/weapons/dark_steel_lance/dark_steel_lance.png",
+   "workshop": "simple_armor:dragon_blacksmith:workbench",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+        "uri": "simple_armor:refined:dark_steel_ingot",
+         "count": 6
+      },
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:weapons:dark_steel_lance"
+      }
+   ]
+}

@@ -1,0 +1,28 @@
+{
+   "type": "recipe",
+   "effort": 40,
+   "work_units": 11,
+   "recipe_name":  "i18n(simple_armor:entities.wokrbenches.dragon_blacksmith_workbench.display_name)",
+   "description": "i18n(simple_armor:entities.wokrbenches.dragon_blacksmith_workbench.description)",
+   "flavor": "Comes with a lizard head as decoration",
+   "portrait": "/simple_armor/jobs/dragon_blacksmith/dragon_blacksmith_workbench/dragon_blacksmith_workbench.png",
+   "work_effect": "work",
+   "level_requirement": 1,
+   "ingredients": [
+      {
+        "uri": "simple_armor:refined:dark_steel_ingot",
+         "count": 4,
+         
+      },
+         {
+         "material": "stone resource",
+         "count": 6
+      },
+    
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:dragon_blacksmith:workbench"
+      }
+   ]
+}

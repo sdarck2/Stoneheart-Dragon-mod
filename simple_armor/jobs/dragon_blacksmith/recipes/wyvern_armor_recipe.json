@@ -1,0 +1,27 @@
+{
+   "type": "recipe",
+   "effort": 70,
+   "work_units": 11,
+   "recipe_name":  "i18n(simple_armor:entities.armor.wyvern_armor.display_name)",
+         "description": "i18n(simple_armor:entities.armor.wyvern_armor.description)",
+   "flavor": "",
+   "portrait": "/simple_armor/entities/armor/wyvern_armor/wyvern_armor.png",
+   "workshop": "simple_armor:dragon_blacksmith:workbench",
+   "level_requirement": 3,
+   "ingredients": [
+      {
+        "uri": "simple_armor:refined:wyvern_ingot",
+         "count": 4
+      },
+      {
+         "uri":"simple_armor:resources:wyvern_skin",
+         "count":2
+      },
+    
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:armor:wyvern_armor",
+      }
+   ]
+}

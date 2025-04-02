@@ -1,0 +1,33 @@
+{
+     "mixins": "stonehearth:mixins:placed_object",
+   "components": {
+      "render_info": {
+         "scale": 0.1
+      },
+	  "mob": {
+         "model_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "region_origin": { "x": 0.5, "y": 0, "z": 0.5 },
+         "allow_vertical_adjacent": false
+      },
+	  "mixintypes": {
+		 "model_variants": "override"
+	  },
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dragon_blacksmith_workbench.qb)"
+            ]
+         }
+      }
+   },
+    "entity_data": {
+      "stonehearth:hide_child_entities_from_pathfinder": true,
+      "stonehearth:catalog": {
+         "display_name": "i18n(simple_armor:entities.wokrbenches.dragon_blacksmith_workbench.display_name)",
+         "description": "i18n(simple_armor:entities.wokrbenches.dragon_blacksmith_workbench.description)",
+         "icon": "file(dragon_blacksmith_forge.png)",
+         "category": "workshops",
+         "material_tags": ["stockpile_tool"]
+      }
+   }
+}

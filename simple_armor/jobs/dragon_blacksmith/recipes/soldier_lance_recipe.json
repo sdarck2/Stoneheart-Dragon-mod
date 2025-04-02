@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 11,
+   "recipe_name":  "i18n(simple_armor:entities.weapons.soldier_lance.soldier_lance_talisman.display_name)",
+         "description":"i18n(simple_armor:entities.weapons.soldier_lance.soldier_lance_talisman.description)",
+   "flavor": "Ready to defend",
+   "portrait": "/simple_armor/entities/weapons/soldier_lance/soldier_lance.png",
+   "workshop": "simple_armor:dragon_blacksmith:workbench",
+   "level_requirement": 2,
+   "ingredients": [
+      {
+        "uri": "simple_armor:refined:dark_steel_ingot",
+         "count": 4
+      },
+      {
+         "material": "leather resource",
+         "count": 1
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:soldier:soldier_lance_talisman"
+      }
+   ]
+}

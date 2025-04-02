@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 100,
+   "work_units": 10,
+   "recipe_name": "i18n(simple_armor:entities.armor.draconite_armor.display_name)",
+         "description": "i18n(simple_armor:entities.armor.draconite_armor.description)",
+   "flavor": "You will look like a lizard",
+   "portrait": "/simple_armor/entities/armor/draconite_armor/draconite_armor.png",
+   "workshop": "simple_armor:dragon_blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "simple_armor:refined:draconite_ingot",
+         "count": 15
+      },
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 4
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:armor:draconite_armor"
+      }
+   ]
+}

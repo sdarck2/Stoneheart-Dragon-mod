@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 11,
+   "recipe_name": "i18n(simple_armor:entities.armor.aural_helmet.display_name)",
+         "description": "i18n(simple_armor:entities.armor.aural_helmet.description)",
+   "flavor": "You will seem from another era",
+   "portrait": "/simple_armor/entities/armor/aural_helmet/aural_helmet.png",
+   "workshop": "simple_armor:dragon_blacksmith:workbench",
+   "level_requirement": 5,
+   "ingredients": [
+      {
+        "uri": "simple_armor:refined:auralite_ingot",
+         "count": 6
+      },
+      {
+         "material": "leather resource",
+         "count": 2
+      },
+      {
+         "material": "thread resource",
+         "count": 2
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:armor:aural_helmet"
+      }
+   ]
+}

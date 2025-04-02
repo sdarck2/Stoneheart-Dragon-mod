@@ -1,0 +1,59 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+	"components": {
+		"mixintypes": {
+			"model_variants": "override"
+		},
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dragon_blacksmith_hammer_equipped.qb)"
+            ]
+         }
+      },
+   "stonehearth:equipment_piece": {
+         "slot": "mainhand",
+         "render_type": "attach_to_bone",
+         "postures": [
+            "stonehearth:combat",
+            "stonehearth:patrol"
+         ]
+      }
+   },
+   "entity_data": {
+       "stonehearth:combat:weapon_data": {
+         "base_damage": 8,
+         "reach": 1.5
+      },
+       "stonehearth:combat:melee_attacks": [
+
+         {
+            "name": "combat_1h_backhand",
+            "effect": "combat_1h_backhand",
+            "active_frame": 17,
+            "cooldown": 0,
+            "priority": 0
+         },
+         {
+            "name": "combat_1h_forehand",
+            "effect": "combat_1h_forehand",
+            "active_frame": 16,
+            "cooldown": 0,
+            "priority": 0
+         }
+      ],
+      "stonehearth:repair_data": {
+         "base_repair_amount": 10
+      },
+
+
+		"stonehearth:catalog": {
+          "display_name": "i18n(simple_armor:entities.tools.dragon_blacksmith_hammer.display_name)",
+         "description":"i18n(simple_armor:entities.tools.dragon_blacksmith_hammer.description)",
+         "icon": "file(dragon_blacksmith_hammer.png)",
+         "category": "weapons",
+         "material_tags": ["draconite", "melee_weapon"]
+      }
+   }
+}

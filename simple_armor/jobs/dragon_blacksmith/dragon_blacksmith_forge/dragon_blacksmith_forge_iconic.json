@@ -1,0 +1,26 @@
+{
+   "mixins": "stonehearth:mixins:item_properties",
+   "type": "entity",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dragon_blacksmith_forge.qb)"
+            ]
+         }
+      },
+         "render_info": {
+         "scale": 0.05,
+         "animation_table": "file(/data/rigs/jobs/blacksmith/blacksmith_forge/blacksmith_forge.json)"
+      },
+      "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "is_item": true,
+         "category": "workshops"
+      }
+   }
+}

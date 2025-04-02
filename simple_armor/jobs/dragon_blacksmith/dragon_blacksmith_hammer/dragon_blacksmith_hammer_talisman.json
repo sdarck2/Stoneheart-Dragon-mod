@@ -1,0 +1,35 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "models": [
+               "file(dragon_blacksmith_hammer.qb)"
+            ]
+         }
+      },
+         "effect_list": {
+         "default": "stonehearth:effects:talisman_glow"
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+          "display_name": "i18n(simple_armor:entities.tools.dragon_blacksmith_hammer.display_name)",
+         "icon": "file(dragon_blacksmith_hammer.png)",
+           "is_item": true,
+         "category": "tools",
+         "material_tags": ["stockpile_tool"]
+      },
+         "stonehearth:net_worth": {
+         "value_in_gold": 10,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": true,
+            "sellable": true,
+            "shopkeeper_level": 3,
+            "shopkeeper_type": "caravan"
+         }
+      },
+   }
+}

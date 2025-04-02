@@ -1,0 +1,43 @@
+{
+   "type": "entity",
+   "mixins": "file(dragon_blacksmith_workbench_ghost.json)",
+   "components": {
+      "destination": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 1, "z": 1 }
+            }
+         ],
+		 "adjacency_flags": [
+            "left",
+			"right"
+         ]
+      },
+      "region_collision_shape": {
+         "region": [
+            {
+               "min": { "x": -1, "y": 0, "z": -1 },
+               "max": { "x": 1, "y": 2, "z": 1 }
+            }
+         ]
+      },
+      "stonehearth:workshop": {
+         "job_alias": "simple_armor:jobs:dragon_blacksmith"
+      },
+         "stonehearth:entity_forms": {
+         "ghost_form": "file(dragon_blacksmith_workbench_ghost.json)",
+         "iconic_form": "file(dragon_blacksmith_workbench_iconic.json)",
+         "placeable_on_ground": true
+      }
+        },
+   "entity_data": {
+   "stonehearth:table": {
+         "drop_effect": "carry_putdown_on_table",
+         "drop_offset":{ "x": 0, "y": 1.5, "z": 0 }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 15
+      }
+   }
+}

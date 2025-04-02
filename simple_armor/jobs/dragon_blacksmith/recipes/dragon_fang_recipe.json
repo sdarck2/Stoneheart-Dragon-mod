@@ -1,0 +1,30 @@
+{
+   "type": "recipe",
+   "effort": 80,
+   "work_units": 10,
+   "recipe_name": "i18n(simple_armor:entities.weapons.dragon_fang.display_name)",
+         "description": "i18n(simple_armor:entities.weapons.dragon_fang.description)",
+   "flavor": "If you find a dragon that you don't like, give him a scare with this sword",
+   "portrait": "/simple_armor/entities/weapons/dragon_fang/dragon_fang.png",
+   "workshop": "simple_armor:dragon_blacksmith:workbench",
+   "level_requirement": 4,
+   "ingredients": [
+      {
+         "uri": "simple_armor:refined:draconite_ingot",
+         "count": 8
+      },
+      {
+         "material": "leather resource",
+         "count": 4
+      },
+      {
+         "material": "thread resource",
+         "count": 9
+      }
+   ],
+   "produces": [
+      {
+         "item": "simple_armor:weapons:dragon_fang"
+      }
+   ]
+}

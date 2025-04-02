@@ -1,0 +1,33 @@
+{
+   "type": "entity",
+   "mixins": "stonehearth:mixins:item_properties",
+   "components": {
+      "model_variants": {
+         "default": {
+            "layer": "clothing",
+            "models": [
+               "file(dragon_blacksmith_outfit.qb)"
+            ]
+         },
+         "female": {
+            "layer": "clothing",
+            "models": [
+               "file(dragon_blacksmith_outfit_female.qb)"
+            ]
+         }
+      },
+      "stonehearth:equipment_piece": {
+         "slot": "torso",
+         "render_type": "merge_with_model",
+         "equip_effect": "stonehearth:effects:weapon_level_up",
+         "no_drop": true
+      }
+   },
+   "entity_data": {
+      "stonehearth:catalog": {
+         "display_name": "Dragon Blacksmith Outfit",
+         "description": "Essential uniform for every dragon blacksmith",
+         "icon": "file(dragon_blacksmith_outfit.png)"
+      }
+   }
+}

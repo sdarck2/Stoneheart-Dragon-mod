@@ -1,0 +1,92 @@
+{
+   "type": "entity",
+   "mixins": "file(dragon_blacksmith_forge_ghost.json)",
+   "components": {
+      "stonehearth:workshop": {
+         "job_alias": "simple_armor:jobs:dragon_blacksmith",
+         "workshop_effect": "file(/data/rigs/jobs/blacksmith/blacksmith_forge/effects/work.json)",
+         "color_map": "simple_armor:color_map:furniture_color",
+                "material_maps": [
+            "/stonehearth/data/materials/material_maps/mob_material_map.json"
+
+
+         ]
+      },
+        "destination": {
+      "region": [
+         {
+            "min": {
+               "x": -1,
+               "y": 0,
+               "z": -2
+            },
+            "max": {
+               "x": 1,
+               "y": 1,
+               "z": 2
+            }
+         }
+      ],
+      "adjacency_flags": [
+         "front"
+      ]
+   },
+   "region_collision_shape": {
+      "region": [
+         {
+            "min": {
+               "x": -2,
+               "y": 0,
+               "z": -2
+            },
+            "max": {
+               "x": 2,
+               "y": 1.5,
+               "z": 3
+            }
+         },
+         {
+            "min": {
+               "x": 2,
+               "y": 0,
+               "z": -1
+            },
+            "max": {
+               "x": 4,
+               "y": 1.5,
+               "z": 1
+            }
+         }
+      ]
+   },
+      "stonehearth:entity_forms": {
+         "iconic_form": "file(dragon_blacksmith_forge_iconic.json)",
+         "ghost_form": "file(dragon_blacksmith_forge_ghost.json)",
+         "placeable_on_ground": true
+      },
+      "effect_list": {
+         "default": "file(/data/rigs/jobs/blacksmith/blacksmith_forge/effects/idle.json)"
+      }
+   },
+   "entity_data": {
+      "stonehearth:table": {
+         "drop_effect": "carry_putdown_on_table",
+         "drop_offset": { "x": 0, "y": 0, "z": 0 }
+      },
+      "stonehearth:net_worth": {
+         "value_in_gold": 15,
+         "rarity": "common",
+         "shop_info": {
+            "buyable": false,
+            "sellable": true,
+            "shopkeeper_type": "caravan"
+         }
+      },
+      "stonehearth:appeal": {
+         "appeal": 12
+      },
+      "stonehearth:item_quality": {
+         "variable_quality": true
+      }
+   }
+}
