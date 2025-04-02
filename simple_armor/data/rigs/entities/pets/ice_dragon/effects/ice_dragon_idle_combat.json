@@ -1,0 +1,11 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+            "type": "animation_effect",
+            "start_time": 1,
+            "animation": "ice_dragon_idle_combat.json",
+            "loop": true
+      }
+   }
+}

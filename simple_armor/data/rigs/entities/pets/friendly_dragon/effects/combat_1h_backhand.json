@@ -1,0 +1,55 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+            "type": "animation_effect",
+            "start_time": 0,
+            "animation": "combat_1h_backhand.json",
+            "loop": false
+      },
+      "attack_trigger" : {
+            "type": "trigger_effect",
+            "start_frame": 40,
+            "end_time": 53
+      },
+      "corrupt_breath_whelp_base": {
+         "type": "cubemitter",
+         "cubemitter": "/stonehearth_ace/data/horde/particles/dragon/fire_burp_base.cubemitter.json",
+         "start_time": 1100,
+         "end_time": 3300,
+         "loop": false,
+         "transforms": { "x": 0, "y": -0.2, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      },
+      "corrupt_breath_whelp_cloud": {
+         "type": "cubemitter",
+         "cubemitter": "/stonehearth_ace/data/horde/particles/dragon/fire_burp_core.cubemitter.json",
+         "start_time": 1100,
+         "end_time": 3300,
+         "loop": false,
+         "transforms": { "x": 0, "y": -0.2, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      },
+      "corrupt_breath_whelp_char": {
+         "type": "cubemitter",
+         "cubemitter": "/stonehearth_ace/data/horde/particles/dragon/fire_burp_core_2.cubemitter.json",
+         "start_time": 1100,
+         "end_time": 3300,
+         "loop": false,
+         "transforms": { "x": 0, "y": -0.2, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      }
+   }
+}

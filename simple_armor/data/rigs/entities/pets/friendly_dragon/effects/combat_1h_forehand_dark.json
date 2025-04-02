@@ -1,0 +1,83 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+            "type": "animation_effect",
+            "start_time": 0,
+            "animation": "dragon_friendly_idle_animation.json",
+            "loop": false
+      },
+      "attack_trigger" : {
+            "type": "trigger_effect",
+            "start_frame": 18,
+            "end_time": 20
+      },
+      "fire_breath_whelp_base": {
+         "type": "cubemitter",
+         "cubemitter": "particles/whelp/fire_breath_whelp/fire_breath_whelp_base.cubemitter.json",
+         "start_time": 1100,
+         "end_time": 2200,
+         "loop": false,
+         "transforms": { "x": 0, "y": -0.2, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      },
+      "fire_breath_whelp_char": {
+         "type": "cubemitter",
+         "cubemitter": "particles/whelp/fire_breath_whelp/fire_breath_whelp_char.cubemitter.json",
+         "start_time": 1100,
+         "end_time": 2200,
+         "loop": false,
+         "transforms": { "x": 0, "y": -0.2, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      },
+	  "purple_wave_slow": {
+         "type": "cubemitter",
+         "cubemitter": "particles/corruption/wolf/corruption_burp/corruption_burp_slow.cubemitter.json",
+         "start_time": 1100,
+         "end_time": 2200,
+         "loop": false,
+         "transforms": { "x": 0, "y": -0.2, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      },
+      "purple_wave_cloud": {
+         "type": "cubemitter",
+         "cubemitter": "particles/corruption/wolf/corruption_burp/corruption_burp_cloud.cubemitter.json",
+         "start_time": 1100,
+         "end_time": 2200,
+         "loop": false,
+         "transforms": { "x": 0, "y": -0.2, "z": 0,
+            "rx": 0,
+            "ry": 0,
+            "rz": 0
+         },
+         "bone": "head"
+      },
+	 "sound_spray": {
+         "type": "sound_effect",
+         "start_time": 900,
+         "min_distance": 30,
+         "falloff" : 12,
+         "volume": 40,
+         "track" : {
+            "type": "one_of",
+            "items": [
+               "stonehearth:sounds:corrupt_wolf_spray_01",
+               "stonehearth:sounds:corrupt_wolf_spray_02",
+               "stonehearth:sounds:corrupt_wolf_spray_03"
+            ]
+         }
+      } 
+   }
+}

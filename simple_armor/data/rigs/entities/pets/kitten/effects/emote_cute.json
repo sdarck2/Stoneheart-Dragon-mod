@@ -1,0 +1,30 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+        "type": "animation_effect",
+        "start_time": 0,
+        "animation": "emote_cute.json",
+        "loop": false,
+        "response_frame": 20
+      },
+         "sound": {
+         "type": "sound_effect",
+         "start_time": 0,
+         "min_distance": 20,
+         "falloff" : 3.6,
+         "volume": 80,
+         "track" : {
+            "type": "one_of",
+            "items": [
+              "stonehearth:sounds:kitten_mew_01",
+              "stonehearth:sounds:kitten_mew_02",
+              "stonehearth:sounds:kitten_mew_03",
+              "stonehearth:sounds:kitten_mew_04",
+              "stonehearth:sounds:kitten_mew_05",
+              "stonehearth:sounds:kitten_mew_06"
+            ]    
+         }
+      }
+   }
+}      

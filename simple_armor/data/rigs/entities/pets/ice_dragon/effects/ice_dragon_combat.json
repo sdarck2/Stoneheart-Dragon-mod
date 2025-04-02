@@ -1,0 +1,13 @@
+{
+   "type" : "effect",
+   "tracks": {
+      "animation": {
+            "type": "animation_effect",
+            "start_time": 1,
+            "animation": "ice_dragon_attack.json",
+            "loop": false
+      },
+   }
+}         
+     
+
